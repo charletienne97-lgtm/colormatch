@@ -13,16 +13,9 @@ async function loadData() {
       for (const key of keys) {
         const val = obj[key];
         const newKey = key.trim();
-        
-        if (typeof val === 'string') {
-          obj[newKey] = val.trim();
-        } else if (typeof val === 'object' && val !== null) {
-          obj[newKey] = val;
-          cleanObj(val);
-        } else {
-          obj[newKey] = val;
-        }
-        
+        if (typeof val === 'string') obj[newKey] = val.trim();
+        else if (typeof val === 'object' && val !== null) { obj[newKey] = val; cleanObj(val); }
+        else obj[newKey] = val;
         if (newKey !== key) delete obj[key];
       }
     }
@@ -75,16 +68,20 @@ function pickRandom(arr, n) {
 
 document.addEventListener('DOMContentLoaded', async () => {
   const data = await loadData();
-  const pool = data.characters; 
-  
-  let gameChars = pickRandom(pool, 5);
+  const pool = data.characters;
+
+  let gameChars = [];
   let idx = 0, totalScore = 0;
   let currentRegion = null;
-  let targetColorHex = ""; 
+  let targetColorHex = "";
+
+  const startScreen = document.getElementById('start-screen');
+  const gameDiv = document.getElementById('game');
+  const startButtons = document.querySelectorAll('.start-btn');
 
   const img = document.getElementById('char-image');
   const charCaption = document.getElementById('char-caption');
-  const regionNameSpan = document.getElementById('region-name'); 
+  const regionNameSpan = document.getElementById('region-name');
   
   const hue = document.getElementById('hue');
   const sat = document.getElementById('sat');
@@ -98,6 +95,22 @@ document.addEventListener('DOMContentLoaded', async () => {
   const nextBtn = document.getElementById('next');
   const restartBtn = document.getElementById('restart');
   const scoreDiv = document.getElementById('score');
+
+  startButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const rounds = parseInt(btn.getAttribute('data-rounds'));
+      startGame(rounds);
+    });
+  });
+
+  function startGame(rounds) {
+    gameChars = pickRandom(pool, rounds);
+    idx = 0;
+    totalScore = 0;
+    startScreen.style.display = 'none'; // Hide menu
+    gameDiv.style.display = 'block';    // Show game
+    showCharacter(0);
+  }
 
   function updateSwatch() {
     const h = +hue.value, s = +sat.value, c = +con.value;
@@ -133,7 +146,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     img.alt = ch.name;
 
     charCaption.textContent = ch.show;
-    scoreDiv.textContent = `Score: — / 10  (${i + 1}/5)`;
+    scoreDiv.textContent = `Score: — / 10  (${i + 1}/${gameChars.length})`;
   }
 
   submitBtn.addEventListener('click', () => {
@@ -145,7 +158,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const res = scoreMatch(targetHSL, got);
     totalScore += res.score;
     
-    scoreDiv.textContent = `Score: ${res.score} / 10 (${idx + 1}/5)`;
+    scoreDiv.textContent = `Score: ${res.score} / 10 (${idx + 1}/${gameChars.length})`;
     
     img.classList.remove('greyed-out');
     
@@ -167,12 +180,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 
   restartBtn.addEventListener('click', () => {
-    gameChars = pickRandom(pool, 5);
-    idx = 0;
-    totalScore = 0;
-    showCharacter(0);
+    gameDiv.style.display = 'none';
+    startScreen.style.display = 'block';
+    img.src = ""; 
   });
 
   updateSwatch();
-  showCharacter(0);
 });
