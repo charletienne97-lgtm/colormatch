@@ -1,3753 +1,3035 @@
 {
-  "characters":[
+ "characters":[
     {
-      "id":1,
-      "name":"Peter Griffin",
-      "show":"Family Guy",
-      "image": {
-      "url":"images/peter-griffin.png"
+     "id":1,
+     "name":"Peter Griffin",
+     "show":"Family Guy",
+     "image":{
+     "url":"images/peter-griffin.png"
       },
-      "regions":[
+     "regions":[
         {
-          "name":"shirt",
-          "x":25,
-          "y":55,
-          "w":50,
-          "h":25,
-          "color":"#ffffff"
+        "name":"shirt",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":25,
+         "color":"#ffffff"
         },
         {
-          "name":"pants",
-          "x":25,
-          "y":80,
-          "w":50,
-          "h":30,
-          "color":"#2d5da8"
+         "name":"pants",
+         "x":25,
+         "y":80,
+         "w":50,
+         "h":30,
+         "color":"#2d5da8"
         },
         {
-          "name":"skin",
-          "x":35,
-          "y":20,
-          "w":50,
-          "h":35,
-          "color":"#fce5cd"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#fce5cd"
         },
         {
-          "name": "glasses",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#ffffff"
+         "name":"glasses",
+         "x":40,
+         "y":30,
+         "w":40,
+         "h":15,
+         "color":"#ffffff"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 20,
-          "color": "#3d2817"
+         "name":"hair",
+         "x":35,
+         "y":15,
+         "w":50,
+         "h":20,
+         "color":"#3d2817"
         }
       ]
     },
     {
-      "id": 2,
-      "name": "Lois Griffin",
-      "show": "Family Guy",
-      "image": {
-        "url": "images/lois-griffin.png"
+     "id":2,
+     "name":"Lois Griffin",
+     "show":"Family Guy",
+     "image":{
+       "url":"images/lois-griffin.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "dress",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#c41e3a"
+         "name":"dress",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#c41e3a"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#fce5cd"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#fce5cd"
         },
         {
-          "name": "hair",
-          "x": 30,
-          "y": 10,
-          "w": 60,
-          "h": 40,
-          "color": "#c41e3a"
+         "name":"hair",
+         "x":30,
+         "y":10,
+         "w":60,
+         "h":40,
+         "color":"#c41e3a"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#4a90d9"
-        },
-        {
-          "name": "necklace",
-          "x": 45,
-          "y": 50,
-          "w": 30,
-          "h": 10,
-          "color": "#ffd700"
+         "name":"necklace",
+         "x":45,
+         "y":50,
+         "w":30,
+         "h":10,
+         "color":"#ffd700"
         }
       ]
     },
     {
-      "id": 3,
-      "name": "Stewie Griffin",
-      "show": "Family Guy",
-      "image": {
-        "url": "images/stewie-griffin.png"
+     "id":3,
+     "name":"Stewie Griffin",
+     "show":"Family Guy",
+     "image":{
+       "url":"images/stewie-griffin.png"
       },
-      "regions": [
-        {
-          "name": "shirt",
-          "x": 25,
-          "y": 60,
-          "w": 50,
-          "h": 30,
-          "color": "#ff6b35"
-        },
-        {
-          "name": "skin",
-          "x": 30,
-          "y": 20,
-          "w": 60,
-          "h": 45,
-          "color": "#fcd9bb"
-        },
+     "regions":[
         {
-          "name": "overalls",
-          "x": 25,
-          "y": 70,
-          "w": 50,
-          "h": 35,
-          "color": "#1e90ff"
+         "name":"shirt",
+         "x":25,
+         "y":60,
+         "w":50,
+         "h":30,
+         "color":"#ff6b35"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 35,
-          "w": 40,
-          "h": 15,
-          "color": "#4a4a4a"
+         "name":"skin",
+         "x":30,
+         "y":20,
+         "w":60,
+         "h":45,
+         "color":"#fcd9bb"
         },
         {
-          "name": "head_shape",
-          "x": 30,
-          "y": 15,
-          "w": 60,
-          "h": 55,
-          "color": "#fcd9bb"
+         "name":"overalls",
+         "x":25,
+         "y":70,
+         "w":50,
+         "h":35,
+         "color":"#1e90ff"
         }
       ]
     },
     {
-      "id": 4,
-      "name": "Brian Griffin",
-      "show": "Family Guy",
-      "image": {
-        "url": "images/brian-griffin.png"
+     "id":4,
+     "name":"Brian Griffin",
+     "show":"Family Guy",
+     "image":{
+       "url":"images/brian-griffin.png"
       },
-      "regions": [
-        {
-          "name": "fur",
-          "x": 25,
-          "y": 20,
-          "w": 70,
-          "h": 80,
-          "color": "#ffffff"
-        },
+     "regions":[
         {
-          "name": "collar",
-          "x": 40,
-          "y": 55,
-          "w": 40,
-          "h": 15,
-          "color": "#8b4513"
+         "name":"collar",
+         "x":40,
+         "y":55,
+         "w":40,
+         "h":15,
+         "color":"#8b4513"
         },
         {
-          "name": "nose",
-          "x": 45,
-          "y": 40,
-          "w": 30,
-          "h": 20,
-          "color": "#000000"
+         "name":"nose",
+         "x":45,
+         "y":40,
+         "w":30,
+         "h":20,
+         "color":"#000000"
         },
         {
-          "name": "eyes",
-          "x": 35,
-          "y": 30,
-          "w": 50,
-          "h": 15,
-          "color": "#000000"
-        },
-        {
-          "name": "body",
-          "x": 25,
-          "y": 65,
-          "w": 70,
-          "h": 50,
-          "color": "#ffffff"
+         "name":"body",
+         "x":25,
+         "y":65,
+         "w":70,
+         "h":50,
+         "color":"#ffffff"
         }
       ]
     },
     {
-      "id": 5,
-      "name": "Meg Griffin",
-      "show": "Family Guy",
-      "image": {
-        "url": "images/meg-griffin.png"
+     "id":5,
+     "name":"Meg Griffin",
+     "show":"Family Guy",
+     "image":{
+       "url":"images/meg-griffin.png"
       },
-      "regions": [
-        {
-          "name": "shirt",
-          "x": 25,
-          "y": 58,
-          "w": 50,
-          "h": 32,
-          "color": "#ff69b4"
-        },
+     "regions":[
         {
-          "name": "skin",
-          "x": 35,
-          "y": 22,
-          "w": 50,
-          "h": 36,
-          "color": "#fce5cd"
+         "name":"shirt",
+         "x":25,
+         "y":58,
+         "w":50,
+         "h":32,
+         "color":"#ff69b4"
         },
         {
-          "name": "hair",
-          "x": 30,
-          "y": 12,
-          "w": 60,
-          "h": 45,
-          "color": "#8b4513"
+         "name":"hair",
+         "x":30,
+         "y":12,
+         "w":60,
+         "h":45,
+         "color":"#8b4513"
         },
         {
-          "name": "glasses",
-          "x": 38,
-          "y": 32,
-          "w": 44,
-          "h": 16,
-          "color": "#8b4513"
+         "name":"glasses",
+         "x":38,
+         "y":32,
+         "w":44,
+         "h":16,
+         "color":"#8b4513"
         },
         {
-          "name": "pants",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 30,
-          "color": "#4169e1"
+         "name":"pants",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":30,
+         "color":"#4169e1"
         }
       ]
     },
     {
-      "id": 6,
-      "name": "Stan Marsh",
-      "show": "South Park",
-      "image": {
-        "url": "images/stan-marsh.png"
+     "id":6,
+     "name":"Stan Marsh",
+     "show":"South Park",
+     "image":{
+       "url":"images/stan-marsh.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "jacket",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#ff0000"
+         "name":"jacket",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#ff0000"
         },
         {
-          "name": "hat",
-          "x": 30,
-          "y": 10,
-          "w": 60,
-          "h": 40,
-          "color": "#0066cc"
+         "name":"hat",
+         "x":30,
+         "y":10,
+         "w":60,
+         "h":40,
+         "color":"#0066cc"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 25,
-          "w": 50,
-          "h": 35,
-          "color": "#f5d0a9"
+         "name":"skin",
+         "x":35,
+         "y":25,
+         "w":50,
+         "h":35,
+         "color":"#f5d0a9"
         },
         {
-          "name": "pants",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 30,
-          "color": "#0066cc"
+         "name":"pants",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":30,
+         "color":"#0066cc"
         },
         {
-          "name": "gloves",
-          "x": 20,
-          "y": 70,
-          "w": 15,
-          "h": 20,
-          "color": "#ffd700"
+         "name":"gloves",
+         "x":20,
+         "y":70,
+         "w":15,
+         "h":20,
+         "color":"#ffd700"
         }
       ]
     },
     {
-      "id": 7,
-      "name": "Kyle Broflovski",
-      "show": "South Park",
-      "image": {
-        "url": "images/kyle-broflovski.png"
+     "id":7,
+     "name":"Kyle Broflovski",
+     "show":"South Park",
+     "image":{
+       "url":"images/kyle-broflovski.png"
       },
-      "regions": [
-        {
-          "name": "jacket",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#ff6600"
-        },
+     "regions":[
         {
-          "name": "hat",
-          "x": 30,
-          "y": 8,
-          "w": 60,
-          "h": 45,
-          "color": "#00cc00"
+         "name":"jacket",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#ff6600"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 25,
-          "w": 50,
-          "h": 35,
-          "color": "#f5d0a9"
+         "name":"hat",
+         "x":30,
+         "y":8,
+         "w":60,
+         "h":45,
+         "color":"#00cc00"
         },
         {
-          "name": "pants",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 30,
-          "color": "#00cc00"
+         "name":"skin",
+         "x":35,
+         "y":25,
+         "w":50,
+         "h":35,
+         "color":"#f5d0a9"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 25,
-          "color": "#8b4513"
+         "name":"pants",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":30,
+         "color":"#00cc00"
         }
       ]
     },
     {
-      "id": 8,
-      "name": "Eric Cartman",
-      "show": "South Park",
-      "image": {
-        "url": "images/eric-cartman.png"
+     "id":8,
+     "name":"Eric Cartman",
+     "show":"South Park",
+     "image":{
+       "url":"images/eric-cartman.png"
       },
-      "regions": [
-        {
-          "name": "jacket",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#0066ff"
-        },
+     "regions":[
         {
-          "name": "hat",
-          "x": 28,
-          "y": 10,
-          "w": 64,
-          "h": 35,
-          "color": "#ffd700"
+         "name":"jacket",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#0066ff"
         },
         {
-          "name": "skin",
-          "x": 30,
-          "y": 22,
-          "w": 60,
-          "h": 40,
-          "color": "#f5d0a9"
+         "name":"hat",
+         "x":28,
+         "y":10,
+         "w":64,
+         "h":35,
+         "color":"#ffd700"
         },
         {
-          "name": "pants",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 30,
-          "color": "#ffd700"
+         "name":"skin",
+         "x":30,
+         "y":22,
+         "w":60,
+         "h":40,
+         "color":"#f5d0a9"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 18,
-          "w": 50,
-          "h": 20,
-          "color": "#8b4513"
+         "name":"pants",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":30,
+         "color":"#ffd700"
         }
       ]
     },
     {
-      "id": 9,
-      "name": "Kenny McCormick",
-      "show": "South Park",
-      "image": {
-        "url": "images/kenny-mccormick.png"
+     "id":9,
+     "name":"Kenny McCormick",
+     "show":"South Park",
+     "image":{
+       "url":"images/kenny-mccormick.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "parka",
-          "x": 25,
-          "y": 50,
-          "w": 50,
-          "h": 50,
-          "color": "#ff6600"
+         "name":"parka",
+         "x":25,
+         "y":50,
+         "w":50,
+         "h":50,
+         "color":"#ff6600"
         },
         {
-          "name": "hood",
-          "x": 30,
-          "y": 15,
-          "w": 60,
-          "h": 50,
-          "color": "#ff6600"
+         "name":"hood",
+         "x":30,
+         "y":15,
+         "w":60,
+         "h":50,
+         "color":"#ff6600"
         },
         {
-          "name": "skin",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 30,
-          "color": "#f5d0a9"
+         "name":"skin",
+         "x":40,
+         "y":30,
+         "w":40,
+         "h":30,
+         "color":"#f5d0a9"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 32,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
-        },
-        {
-          "name": "pants",
-          "x": 25,
-          "y": 90,
-          "w": 50,
-          "h": 25,
-          "color": "#cc6600"
+         "name":"pants",
+         "x":25,
+         "y":90,
+         "w":50,
+         "h":25,
+         "color":"#cc6600"
         }
       ]
     },
     {
-      "id": 10,
-      "name": "Randy Marsh",
-      "show": "South Park",
-      "image": {
-        "url": "images/randy-marsh.png"
+     "id":10,
+     "name":"Randy Marsh",
+     "show":"South Park",
+     "image":{
+       "url":"images/randy-marsh.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "shirt",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#00cc66"
+         "name":"shirt",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#00cc66"
         },
         {
-          "name": "hair",
-          "x": 33,
-          "y": 12,
-          "w": 54,
-          "h": 30,
-          "color": "#8b4513"
+         "name":"hair",
+         "x":33,
+         "y":12,
+         "w":54,
+         "h":30,
+         "color":"#8b4513"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 25,
-          "w": 50,
-          "h": 35,
-          "color": "#f5d0a9"
+         "name":"skin",
+         "x":35,
+         "y":25,
+         "w":50,
+         "h":35,
+         "color":"#f5d0a9"
         },
         {
-          "name": "mustache",
-          "x": 42,
-          "y": 38,
-          "w": 36,
-          "h": 12,
-          "color": "#8b4513"
+         "name":"mustache",
+         "x":42,
+         "y":38,
+         "w":36,
+         "h":12,
+         "color":"#8b4513"
         },
         {
-          "name": "pants",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 30,
-          "color": "#8b4513"
+         "name":"pants",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":30,
+         "color":"#8b4513"
         }
       ]
     },
     {
-      "id": 11,
-      "name": "Stan Smith",
-      "show": "American Dad",
-      "image": {
-        "url": "images/stan-smith.png"
+     "id":11,
+     "name":"Stan Smith",
+     "show":"American Dad",
+     "image":{
+       "url":"images/stan-smith.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "shirt",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#ffffff"
+         "name":"shirt",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#ffffff"
         },
         {
-          "name": "pants",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 30,
-          "color": "#000080"
+         "name":"pants",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":30,
+         "color":"#000080"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#fcd9bb"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#fcd9bb"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 20,
-          "color": "#3d2817"
+         "name":"hair",
+         "x":35,
+         "y":15,
+         "w":50,
+         "h":20,
+         "color":"#3d2817"
         },
         {
-          "name": "tie",
-          "x": 45,
-          "y": 60,
-          "w": 10,
-          "h": 20,
-          "color": "#ff0000"
+         "name":"tie",
+         "x":45,
+         "y":60,
+         "w":10,
+         "h":20,
+         "color":"#ff0000"
         }
       ]
     },
     {
-      "id": 12,
-      "name": "Francine Smith",
-      "show": "American Dad",
-      "image": {
-        "url": "images/francine-smith.png"
+     "id":12,
+     "name":"Francine Smith",
+     "show":"American Dad",
+     "image":{
+       "url":"images/francine-smith.png"
       },
-      "regions": [
-        {
-          "name": "dress",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#ff69b4"
-        },
+     "regions":[
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#fcd9bb"
+         "name":"dress",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#ff69b4"
         },
         {
-          "name": "hair",
-          "x": 30,
-          "y": 10,
-          "w": 60,
-          "h": 40,
-          "color": "#8b4513"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#fcd9bb"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#4a90d9"
+         "name":"hair",
+         "x":30,
+         "y":10,
+         "w":60,
+         "h":40,
+         "color":"#8b4513"
         },
         {
-          "name": "necklace",
-          "x": 45,
-          "y": 50,
-          "w": 30,
-          "h": 10,
-          "color": "#ffd700"
+         "name":"necklace",
+         "x":45,
+         "y":50,
+         "w":30,
+         "h":10,
+         "color":"#ffd700"
         }
       ]
     },
     {
-      "id": 13,
-      "name": "Steve Smith",
-      "show": "American Dad",
-      "image": {
-        "url": "images/steve-smith.png"
+     "id":13,
+     "name":"Steve Smith",
+     "show":"American Dad",
+     "image":{
+       "url":"images/steve-smith.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "shirt",
-          "x": 25,
-          "y": 58,
-          "w": 50,
-          "h": 32,
-          "color": "#00cc00"
+         "name":"shirt",
+         "x":25,
+         "y":58,
+         "w":50,
+         "h":32,
+         "color":"#00cc00"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 22,
-          "w": 50,
-          "h": 36,
-          "color": "#fcd9bb"
+         "name":"skin",
+         "x":35,
+         "y":22,
+         "w":50,
+         "h":36,
+         "color":"#fcd9bb"
         },
         {
-          "name": "glasses",
-          "x": 38,
-          "y": 32,
-          "w": 44,
-          "h": 16,
-          "color": "#000000"
+         "name":"glasses",
+         "x":38,
+         "y":32,
+         "w":44,
+         "h":16,
+         "color":"#000000"
         },
         {
-          "name": "pants",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 30,
-          "color": "#000080"
+         "name":"pants",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":30,
+         "color":"#000080"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 20,
-          "color": "#3d2817"
+         "name":"hair",
+         "x":35,
+         "y":15,
+         "w":50,
+         "h":20,
+         "color":"#3d2817"
         }
       ]
     },
     {
-      "id": 14,
-      "name": "Hayley Smith",
-      "show": "American Dad",
-      "image": {
-        "url": "images/hayley-smith.png"
+     "id":14,
+     "name":"Hayley Smith",
+     "show":"American Dad",
+     "image":{
+       "url":"images/hayley-smith.png"
       },
-      "regions": [
-        {
-          "name": "shirt",
-          "x": 25,
-          "y": 58,
-          "w": 50,
-          "h": 32,
-          "color": "#9370db"
-        },
+     "regions":[
         {
-          "name": "skin",
-          "x": 35,
-          "y": 22,
-          "w": 50,
-          "h": 36,
-          "color": "#fcd9bb"
+         "name":"shirt",
+         "x":25,
+         "y":58,
+         "w":50,
+         "h":32,
+         "color":"#9370db"
         },
         {
-          "name": "hair",
-          "x": 30,
-          "y": 12,
-          "w": 60,
-          "h": 45,
-          "color": "#8b4513"
+         "name":"skin",
+         "x":35,
+         "y":22,
+         "w":50,
+         "h":36,
+         "color":"#fcd9bb"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 32,
-          "w": 40,
-          "h": 15,
-          "color": "#4a90d9"
+         "name":"hair",
+         "x":30,
+         "y":12,
+         "w":60,
+         "h":45,
+         "color":"#8b4513"
         },
         {
-          "name": "pants",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 30,
-          "color": "#000080"
+         "name":"pants",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":30,
+         "color":"#000080"
         }
       ]
     },
     {
-      "id": 15,
-      "name": "Roger",
-      "show": "American Dad",
-      "image": {
-        "url": "images/roger.png"
+     "id":15,
+     "name":"Roger",
+     "show":"American Dad",
+     "image":{
+       "url":"images/roger.png"
       },
-      "regions": [
+     "regions":[
+  
         {
-          "name": "shirt",
-          "x": 25,
-          "y": 58,
-          "w": 50,
-          "h": 32,
-          "color": "#ff6347"
-        },
-        {
-          "name": "skin",
-          "x": 35,
-          "y": 22,
-          "w": 50,
-          "h": 36,
-          "color": "#ffffff"
-        },
-        {
-          "name": "hair",
-          "x": 30,
-          "y": 12,
-          "w": 60,
-          "h": 45,
-          "color": "#ff0000"
-        },
-        {
-          "name": "nose",
-          "x": 45,
-          "y": 35,
-          "w": 30,
-          "h": 15,
-          "color": "#ff0000"
-        },
-        {
-          "name": "pants",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 30,
-          "color": "#000080"
+         "name":"skin",
+         "x":35,
+         "y":22,
+         "w":50,
+         "h":36,
+         "color":"#ffffff"
         }
       ]
     },
     {
-      "id": 16,
-      "name": "SpongeBob SquarePants",
-      "show": "SpongeBob SquarePants",
-      "image": {
-        "url": "images/spongebob-squarepants.png"
+     "id":16,
+     "name":"SpongeBob SquarePants",
+     "show":"SpongeBob SquarePants",
+     "image":{
+       "url":"images/spongebob-squarepants.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "body",
-          "x": 25,
-          "y": 25,
-          "w": 50,
-          "h": 50,
-          "color": "#ffd700"
+         "name":"body",
+         "x":25,
+         "y":25,
+         "w":50,
+         "h":50,
+         "color":"#ffd700"
         },
         {
-          "name": "shirt",
-          "x": 25,
-          "y": 60,
-          "w": 50,
-          "h": 20,
-          "color": "#ffffff"
+         "name":"shirt",
+         "x":25,
+         "y":60,
+         "w":50,
+         "h":20,
+         "color":"#ffffff"
         },
         {
-          "name": "tie",
-          "x": 45,
-          "y": 65,
-          "w": 10,
-          "h": 15,
-          "color": "#ff0000"
+         "name":"tie",
+         "x":45,
+         "y":65,
+         "w":10,
+         "h":15,
+         "color":"#ff0000"
         },
         {
-          "name": "pants",
-          "x": 25,
-          "y": 75,
-          "w": 50,
-          "h": 20,
-          "color": "#8b4513"
-        },
-        {
-          "name": "eyes",
-          "x": 35,
-          "y": 35,
-          "w": 50,
-          "h": 20,
-          "color": "#0000ff"
+         "name":"pants",
+         "x":25,
+         "y":75,
+         "w":50,
+         "h":20,
+         "color":"#8b4513"
         }
       ]
     },
     {
-      "id": 17,
-      "name": "Patrick Star",
-      "show": "SpongeBob SquarePants",
-      "image": {
-        "url": "images/patrick-star.png"
+     "id":17,
+     "name":"Patrick Star",
+     "show":"SpongeBob SquarePants",
+     "image":{
+       "url":"images/patrick-star.png"
       },
-      "regions": [
-        {
-          "name": "body",
-          "x": 30,
-          "y": 25,
-          "w": 60,
-          "h": 60,
-          "color": "#ff69b4"
-        },
-        {
-          "name": "shorts",
-          "x": 25,
-          "y": 75,
-          "w": 50,
-          "h": 25,
-          "color": "#00cc00"
-        },
+     "regions":[
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 40,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"body",
+         "x":30,
+         "y":25,
+         "w":60,
+         "h":60,
+         "color":"#ff69b4"
         },
         {
-          "name": "mouth",
-          "x": 40,
-          "y": 55,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"shorts",
+         "x":25,
+         "y":75,
+         "w":50,
+         "h":25,
+         "color":"#00cc00"
         },
         {
-          "name": "spots",
-          "x": 35,
-          "y": 30,
-          "w": 50,
-          "h": 40,
-          "color": "#9370db"
+         "name":"spots",
+         "x":35,
+         "y":30,
+         "w":50,
+         "h":40,
+         "color":"#9370db"
         }
       ]
     },
     {
-      "id": 18,
-      "name": "Squidward Tentacles",
-      "show": "SpongeBob SquarePants",
-      "image": {
-        "url": "images/squidward-tentacles.png"
+     "id":18,
+     "name":"Squidward Tentacles",
+     "show":"SpongeBob SquarePants",
+     "image":{
+       "url":"images/squidward-tentacles.png"
       },
-      "regions": [
-        {
-          "name": "body",
-          "x": 30,
-          "y": 25,
-          "w": 60,
-          "h": 60,
-          "color": "#00ced1"
-        },
-        {
-          "name": "shirt",
-          "x": 25,
-          "y": 70,
-          "w": 50,
-          "h": 25,
-          "color": "#ffd700"
-        },
-        {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
-        },
+     "regions":[
         {
-          "name": "nose",
-          "x": 45,
-          "y": 45,
-          "w": 30,
-          "h": 20,
-          "color": "#00ced1"
+         "name":"body",
+         "x":30,
+         "y":25,
+         "w":60,
+         "h":60,
+         "color":"#00ced1"
         },
         {
-          "name": "pants",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 20,
-          "color": "#8b4513"
+         "name":"shirt",
+         "x":25,
+         "y":70,
+         "w":50,
+         "h":25,
+         "color":"#ffd700"
         }
       ]
     },
     {
-      "id": 19,
-      "name": "Mr. Krabs",
-      "show": "SpongeBob SquarePants",
-      "image": {
-        "url": "images/mr-krabs.png"
+     "id":19,
+     "name":"Mr. Krabs",
+     "show":"SpongeBob SquarePants",
+     "image":{
+       "url":"images/mr-krabs.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "body",
-          "x": 25,
-          "y": 30,
-          "w": 70,
-          "h": 50,
-          "color": "#ff0000"
+         "name":"body",
+         "x":25,
+         "y":30,
+         "w":70,
+         "h":50,
+         "color":"#ff0000"
         },
         {
-          "name": "shirt",
-          "x": 25,
-          "y": 70,
-          "w": 50,
-          "h": 20,
-          "color": "#000080"
+         "name":"shirt",
+         "x":25,
+         "y":70,
+         "w":50,
+         "h":20,
+         "color":"#000080"
         },
         {
-          "name": "eyes",
-          "x": 35,
-          "y": 35,
-          "w": 50,
-          "h": 15,
-          "color": "#000000"
+         "name":"claws",
+         "x":20,
+         "y":55,
+         "w":80,
+         "h":20,
+         "color":"#ff0000"
         },
         {
-          "name": "claws",
-          "x": 20,
-          "y": 55,
-          "w": 80,
-          "h": 20,
-          "color": "#ff0000"
-        },
-        {
-          "name": "pants",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 20,
-          "color": "#8b4513"
+         "name":"pants",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":20,
+         "color":"#8b4513"
         }
       ]
     },
     {
-      "id": 20,
-      "name": "Sandy Cheeks",
-      "show": "SpongeBob SquarePants",
-      "image": {
-        "url": "images/sandy-cheeks.png"
+     "id":20,
+     "name":"Sandy Cheeks",
+     "show":"SpongeBob SquarePants",
+     "image":{
+       "url":"images/sandy-cheeks.png"
       },
-      "regions": [
-        {
-          "name": "helmet",
-          "x": 30,
-          "y": 20,
-          "w": 60,
-          "h": 50,
-          "color": "#ffffff"
-        },
-        {
-          "name": "body",
-          "x": 35,
-          "y": 35,
-          "w": 50,
-          "h": 35,
-          "color": "#8b4513"
-        },
+     "regions":[
         {
-          "name": "suit",
-          "x": 25,
-          "y": 65,
-          "w": 50,
-          "h": 35,
-          "color": "#9370db"
+         "name":"helmet",
+         "x":30,
+         "y":20,
+         "w":60,
+         "h":50,
+         "color":"#ffffff"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 32,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"body",
+         "x":35,
+         "y":35,
+         "w":50,
+         "h":35,
+         "color":"#8b4513"
         },
         {
-          "name": "tail",
-          "x": 45,
-          "y": 80,
-          "w": 30,
-          "h": 20,
-          "color": "#8b4513"
+         "name":"suit",
+         "x":25,
+         "y":65,
+         "w":50,
+         "h":35,
+         "color":"#9370db"
         }
       ]
     },
     {
-      "id": 21,
-      "name": "Mickey Mouse",
-      "show": "Mickey Mouse",
-      "image": {
-        "url": "images/mickey-mouse.png"
+     "id":21,
+     "name":"Mickey Mouse",
+     "show":"Mickey Mouse",
+     "image":{
+       "url":"images/mickey-mouse.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "ears",
-          "x": 25,
-          "y": 15,
-          "w": 70,
-          "h": 35,
-          "color": "#000000"
+         "name":"ears",
+         "x":25,
+         "y":15,
+         "w":70,
+         "h":35,
+         "color":"#000000"
         },
         {
-          "name": "face",
-          "x": 35,
-          "y": 30,
-          "w": 50,
-          "h": 35,
-          "color": "#fce5cd"
+         "name":"face",
+         "x":35,
+         "y":30,
+         "w":50,
+         "h":35,
+         "color":"#fce5cd"
         },
         {
-          "name": "shirt",
-          "x": 25,
-          "y": 65,
-          "w": 50,
-          "h": 30,
-          "color": "#ff0000"
+         "name":"shirt",
+         "x":25,
+         "y":65,
+         "w":50,
+         "h":30,
+         "color":"#ff0000"
         },
         {
-          "name": "buttons",
-          "x": 45,
-          "y": 70,
-          "w": 10,
-          "h": 20,
-          "color": "#ffffff"
+         "name":"buttons",
+         "x":45,
+         "y":70,
+         "w":10,
+         "h":20,
+         "color":"#ffffff"
         },
         {
-          "name": "shorts",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 25,
-          "color": "#ff0000"
+         "name":"shorts",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":25,
+         "color":"#ff0000"
         }
       ]
     },
     {
-      "id": 22,
-      "name": "Minnie Mouse",
-      "show": "Mickey Mouse",
-      "image": {
-        "url": "images/minnie-mouse.png"
+     "id":22,
+     "name":"Minnie Mouse",
+     "show":"Mickey Mouse",
+     "image":{
+       "url":"images/minnie-mouse.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "ears",
-          "x": 25,
-          "y": 15,
-          "w": 70,
-          "h": 35,
-          "color": "#000000"
+         "name":"ears",
+         "x":25,
+         "y":15,
+         "w":70,
+         "h":35,
+         "color":"#000000"
         },
         {
-          "name": "bow",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 20,
-          "color": "#ff69b4"
+         "name":"bow",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":20,
+         "color":"#ff69b4"
         },
         {
-          "name": "face",
-          "x": 35,
-          "y": 30,
-          "w": 50,
-          "h": 35,
-          "color": "#fce5cd"
+         "name":"face",
+         "x":35,
+         "y":30,
+         "w":50,
+         "h":35,
+         "color":"#fce5cd"
         },
         {
-          "name": "dress",
-          "x": 25,
-          "y": 65,
-          "w": 50,
-          "h": 35,
-          "color": "#ff69b4"
+         "name":"dress",
+         "x":25,
+         "y":65,
+         "w":50,
+         "h":35,
+         "color":"#ff69b4"
         },
         {
-          "name": "polka_dots",
-          "x": 30,
-          "y": 70,
-          "w": 40,
-          "h": 25,
-          "color": "#ffffff"
+         "name":"polka_dots",
+         "x":30,
+         "y":70,
+         "w":40,
+         "h":25,
+         "color":"#ffffff"
         }
       ]
     },
     {
-      "id": 23,
-      "name": "Donald Duck",
-      "show": "Mickey Mouse",
-      "image": {
-        "url": "images/donald-duck.png"
+     "id":23,
+     "name":"Donald Duck",
+     "show":"Mickey Mouse",
+     "image":{
+       "url":"images/donald-duck.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "body",
-          "x": 30,
-          "y": 25,
-          "w": 60,
-          "h": 50,
-          "color": "#ffffff"
+         "name":"body",
+         "x":30,
+         "y":25,
+         "w":60,
+         "h":50,
+         "color":"#ffffff"
         },
         {
-          "name": "bill",
-          "x": 35,
-          "y": 40,
-          "w": 50,
-          "h": 20,
-          "color": "#ffa500"
+         "name":"bill",
+         "x":35,
+         "y":40,
+         "w":50,
+         "h":20,
+         "color":"#ffa500"
         },
         {
-          "name": "hat",
-          "x": 40,
-          "y": 15,
-          "w": 40,
-          "h": 20,
-          "color": "#0000ff"
+         "name":"hat",
+         "x":40,
+         "y":15,
+         "w":40,
+         "h":20,
+         "color":"#0000ff"
         },
         {
-          "name": "shirt",
-          "x": 25,
-          "y": 65,
-          "w": 50,
-          "h": 25,
-          "color": "#0000ff"
+         "name":"shirt",
+         "x":25,
+         "y":65,
+         "w":50,
+         "h":25,
+         "color":"#0000ff"
         },
         {
-          "name": "bow_tie",
-          "x": 45,
-          "y": 68,
-          "w": 30,
-          "h": 15,
-          "color": "#ff0000"
+         "name":"bow_tie",
+         "x":45,
+         "y":68,
+         "w":30,
+         "h":15,
+         "color":"#ff0000"
         }
       ]
     },
     {
-      "id": 24,
-      "name": "Goofy",
-      "show": "Mickey Mouse",
-      "image": {
-        "url": "images/goofy.png"
+     "id":24,
+     "name":"Goofy",
+     "show":"Mickey Mouse",
+     "image":{
+       "url":"images/goofy.png"
       },
-      "regions": [
-        {
-          "name": "head",
-          "x": 30,
-          "y": 20,
-          "w": 60,
-          "h": 50,
-          "color": "#000000"
-        },
+     "regions":[
         {
-          "name": "face",
-          "x": 35,
-          "y": 35,
-          "w": 50,
-          "h": 35,
-          "color": "#fce5cd"
+         "name":"head",
+         "x":30,
+         "y":20,
+         "w":60,
+         "h":50,
+         "color":"#000000"
         },
         {
-          "name": "vest",
-          "x": 25,
-          "y": 65,
-          "w": 50,
-          "h": 30,
-          "color": "#ff6347"
+         "name":"face",
+         "x":35,
+         "y":35,
+         "w":50,
+         "h":35,
+         "color":"#fce5cd"
         },
         {
-          "name": "shirt",
-          "x": 25,
-          "y": 70,
-          "w": 50,
-          "h": 25,
-          "color": "#00cc00"
+         "name":"shirt",
+         "x":25,
+         "y":70,
+         "w":50,
+         "h":25,
+         "color":"#00cc00"
         },
         {
-          "name": "hat",
-          "x": 40,
-          "y": 15,
-          "w": 40,
-          "h": 20,
-          "color": "#00cc00"
+         "name":"hat",
+         "x":40,
+         "y":15,
+         "w":40,
+         "h":20,
+         "color":"#00cc00"
         }
       ]
     },
     {
-      "id": 25,
-      "name": "Pluto",
-      "show": "Mickey Mouse",
-      "image": {
-        "url": "images/pluto.png"
+     "id":25,
+     "name":"Pluto",
+     "show":"Mickey Mouse",
+     "image":{
+       "url":"images/pluto.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "body",
-          "x": 20,
-          "y": 40,
-          "w": 80,
-          "h": 50,
-          "color": "#ffa500"
+         "name":"body",
+         "x":20,
+         "y":40,
+         "w":80,
+         "h":50,
+         "color":"#ffa500"
         },
         {
-          "name": "head",
-          "x": 35,
-          "y": 30,
-          "w": 50,
-          "h": 40,
-          "color": "#ffa500"
+         "name":"nose",
+         "x":45,
+         "y":50,
+         "w":30,
+         "h":15,
+         "color":"#000000"
         },
         {
-          "name": "ears",
-          "x": 30,
-          "y": 25,
-          "w": 60,
-          "h": 25,
-          "color": "#000000"
-        },
-        {
-          "name": "nose",
-          "x": 45,
-          "y": 50,
-          "w": 30,
-          "h": 15,
-          "color": "#000000"
-        },
-        {
-          "name": "collar",
-          "x": 40,
-          "y": 65,
-          "w": 40,
-          "h": 10,
-          "color": "#00cc00"
+         "name":"collar",
+         "x":40,
+         "y":65,
+         "w":40,
+         "h":10,
+         "color":"#00cc00"
         }
       ]
     },
     {
-      "id": 26,
-      "name": "Winnie the Pooh",
-      "show": "Winnie the Pooh",
-      "image": {
-        "url": "images/winnie-the-pooh.png"
+     "id":26,
+     "name":"Winnie the Pooh",
+     "show":"Winnie the Pooh",
+     "image":{
+       "url":"images/winnie-the-pooh.png"
       },
-      "regions": [
-        {
-          "name": "body",
-          "x": 30,
-          "y": 25,
-          "w": 60,
-          "h": 50,
-          "color": "#ffd700"
-        },
+     "regions":[
         {
-          "name": "shirt",
-          "x": 25,
-          "y": 60,
-          "w": 50,
-          "h": 35,
-          "color": "#ff0000"
+         "name":"body",
+         "x":30,
+         "y":25,
+         "w":60,
+         "h":50,
+         "color":"#ffd700"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 32,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"shirt",
+         "x":25,
+         "y":60,
+         "w":50,
+         "h":35,
+         "color":"#ff0000"
         },
         {
-          "name": "nose",
-          "x": 45,
-          "y": 42,
-          "w": 30,
-          "h": 12,
-          "color": "#000000"
-        },
-        {
-          "name": "ears",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 20,
-          "color": "#ffd700"
+         "name":"nose",
+         "x":45,
+         "y":42,
+         "w":30,
+         "h":12,
+         "color":"#000000"
         }
       ]
     },
     {
-      "id": 27,
-      "name": "Piglet",
-      "show": "Winnie the Pooh",
-      "image": {
-        "url": "images/piglet.png"
+     "id":27,
+     "name":"Piglet",
+     "show":"Winnie the Pooh",
+     "image":{
+       "url":"images/piglet.png"
       },
-      "regions": [
-        {
-          "name": "body",
-          "x": 35,
-          "y": 30,
-          "w": 50,
-          "h": 45,
-          "color": "#ffc0cb"
-        },
-        {
-          "name": "shirt",
-          "x": 30,
-          "y": 60,
-          "w": 60,
-          "h": 35,
-          "color": "#ff69b4"
-        },
+     "regions":[
         {
-          "name": "eyes",
-          "x": 42,
-          "y": 35,
-          "w": 36,
-          "h": 12,
-          "color": "#000000"
+         "name":"body",
+         "x":35,
+         "y":30,
+         "w":50,
+         "h":45,
+         "color":"#ffc0cb"
         },
         {
-          "name": "nose",
-          "x": 47,
-          "y": 45,
-          "w": 26,
-          "h": 10,
-          "color": "#000000"
+         "name":"nose",
+         "x":47,
+         "y":45,
+         "w":26,
+         "h":10,
+         "color":"#000000"
         },
         {
-          "name": "ears",
-          "x": 38,
-          "y": 25,
-          "w": 44,
-          "h": 18,
-          "color": "#ffc0cb"
+         "name":"ears",
+         "x":38,
+         "y":25,
+         "w":44,
+         "h":18,
+         "color":"#ffc0cb"
         }
       ]
     },
     {
-      "id": 28,
-      "name": "Tigger",
-      "show": "Winnie the Pooh",
-      "image": {
-        "url": "images/tigger.png"
+     "id":28,
+     "name":"Tigger",
+     "show":"Winnie the Pooh",
+     "image":{
+       "url":"images/tigger.png"
       },
-      "regions": [
-        {
-          "name": "body",
-          "x": 30,
-          "y": 25,
-          "w": 60,
-          "h": 50,
-          "color": "#ffa500"
-        },
+     "regions":[
         {
-          "name": "stripes",
-          "x": 35,
-          "y": 30,
-          "w": 50,
-          "h": 40,
-          "color": "#000000"
+         "name":"body",
+         "x":30,
+         "y":25,
+         "w":60,
+         "h":50,
+         "color":"#ffa500"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 32,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"stripes",
+         "x":35,
+         "y":30,
+         "w":50,
+         "h":40,
+         "color":"#000000"
         },
         {
-          "name": "nose",
-          "x": 45,
-          "y": 45,
-          "w": 30,
-          "h": 12,
-          "color": "#ff69b4"
+         "name":"nose",
+         "x":45,
+         "y":45,
+         "w":30,
+         "h":12,
+         "color":"#ff69b4"
         },
         {
-          "name": "chest",
-          "x": 40,
-          "y": 60,
-          "w": 40,
-          "h": 30,
-          "color": "#ffffff"
+         "name":"chest",
+         "x":40,
+         "y":60,
+         "w":40,
+         "h":30,
+         "color":"#ffffff"
         }
       ]
     },
     {
-      "id": 29,
-      "name": "Eeyore",
-      "show": "Winnie the Pooh",
-      "image": {
-        "url": "images/eeyore.png"
+     "id":29,
+     "name":"Eeyore",
+     "show":"Winnie the Pooh",
+     "image":{
+       "url":"images/eeyore.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "body",
-          "x": 25,
-          "y": 30,
-          "w": 70,
-          "h": 55,
-          "color": "#808080"
+         "name":"body",
+         "x":25,
+         "y":30,
+         "w":70,
+         "h":55,
+         "color":"#808080"
         },
         {
-          "name": "mane",
-          "x": 40,
-          "y": 20,
-          "w": 40,
-          "h": 25,
-          "color": "#000000"
+         "name":"mane",
+         "x":40,
+         "y":20,
+         "w":40,
+         "h":25,
+         "color":"#000000"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 32,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"nose",
+         "x":45,
+         "y":45,
+         "w":30,
+         "h":12,
+         "color":"#000000"
         },
         {
-          "name": "nose",
-          "x": 45,
-          "y": 45,
-          "w": 30,
-          "h": 12,
-          "color": "#000000"
-        },
-        {
-          "name": "tail_bow",
-          "x": 45,
-          "y": 75,
-          "w": 30,
-          "h": 15,
-          "color": "#ff69b4"
+         "name":"tail_bow",
+         "x":45,
+         "y":75,
+         "w":30,
+         "h":15,
+         "color":"#ff69b4"
         }
       ]
     },
     {
-      "id": 30,
-      "name": "Rabbit",
-      "show": "Winnie the Pooh",
-      "image": {
-        "url": "images/rabbit.png"
+     "id":30,
+     "name":"Rabbit",
+     "show":"Winnie the Pooh",
+     "image":{
+       "url":"images/rabbit.png"
       },
-      "regions": [
-        {
-          "name": "body",
-          "x": 35,
-          "y": 30,
-          "w": 50,
-          "h": 50,
-          "color": "#d3d3d3"
-        },
-        {
-          "name": "ears",
-          "x": 40,
-          "y": 15,
-          "w": 40,
-          "h": 35,
-          "color": "#d3d3d3"
-        },
-        {
-          "name": "eyes",
-          "x": 42,
-          "y": 35,
-          "w": 36,
-          "h": 12,
-          "color": "#000000"
-        },
+     "regions":[
         {
-          "name": "nose",
-          "x": 47,
-          "y": 45,
-          "w": 26,
-          "h": 10,
-          "color": "#ff69b4"
+         "name":"body",
+         "x":35,
+         "y":30,
+         "w":50,
+         "h":50,
+         "color":"#d3d3d3"
         },
         {
-          "name": "shirt",
-          "x": 30,
-          "y": 65,
-          "w": 60,
-          "h": 30,
-          "color": "#ffd700"
+         "name":"nose",
+         "x":47,
+         "y":45,
+         "w":26,
+         "h":10,
+         "color":"#ff69b4"
         }
       ]
     },
     {
-      "id": 31,
-      "name": "Homer Simpson",
-      "show": "The Simpsons",
-      "image": {
-        "url": "images/homer-simpson.png"
+     "id":31,
+     "name":"Homer Simpson",
+     "show":"The Simpsons",
+     "image":{
+       "url":"images/homer-simpson.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "shirt",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 25,
-          "color": "#ffffff"
+         "name":"shirt",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":25,
+         "color":"#ffffff"
         },
         {
-          "name": "pants",
-          "x": 25,
-          "y": 80,
-          "w": 50,
-          "h": 30,
-          "color": "#1d50a8"
+         "name":"pants",
+         "x":25,
+         "y":80,
+         "w":50,
+         "h":30,
+         "color":"#1d50a8"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#f7d657"
-        },
-        {
-          "name": "hair",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 20,
-          "color": "#000000"
-        },
-        {
-          "name": "eyes",
-          "x": 40,
-          "y": 25,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#f7d657"
         }
       ]
     },
     {
-      "id": 32,
-      "name": "Marge Simpson",
-      "show": "The Simpsons",
-      "image": {
-        "url": "images/marge-simpson.png"
+     "id":32,
+     "name":"Marge Simpson",
+     "show":"The Simpsons",
+     "image":{
+       "url":"images/marge-simpson.png"
       },
-      "regions": [
-        {
-          "name": "dress",
-          "x": 25,
-          "y": 60,
-          "w": 50,
-          "h": 35,
-          "color": "#00cc66"
-        },
+     "regions":[
         {
-          "name": "skin",
-          "x": 35,
-          "y": 30,
-          "w": 50,
-          "h": 35,
-          "color": "#f7d657"
+         "name":"dress",
+         "x":25,
+         "y":60,
+         "w":50,
+         "h":35,
+         "color":"#00cc66"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 5,
-          "w": 50,
-          "h": 50,
-          "color": "#1e90ff"
+         "name":"skin",
+         "x":35,
+         "y":30,
+         "w":50,
+         "h":35,
+         "color":"#f7d657"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 35,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
-        },
-        {
-          "name": "necklace",
-          "x": 45,
-          "y": 55,
-          "w": 30,
-          "h": 10,
-          "color": "#ff0000"
+         "name":"necklace",
+         "x":45,
+         "y":55,
+         "w":30,
+         "h":10,
+         "color":"#ff0000"
         }
       ]
     },
     {
-      "id": 33,
-      "name": "Bart Simpson",
-      "show": "The Simpsons",
-      "image": {
-        "url": "images/bart-simpson.png"
+     "id":33,
+     "name":"Bart Simpson",
+     "show":"The Simpsons",
+     "image":{
+       "url":"images/bart-simpson.png"
       },
-      "regions": [
-        {
-          "name": "shirt",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 30,
-          "color": "#ff6600"
-        },
-        {
-          "name": "shorts",
-          "x": 25,
-          "y": 80,
-          "w": 50,
-          "h": 25,
-          "color": "#1e90ff"
-        },
+     "regions":[
         {
-          "name": "skin",
-          "x": 35,
-          "y": 22,
-          "w": 50,
-          "h": 35,
-          "color": "#f7d657"
+         "name":"shirt",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":30,
+         "color":"#ff6600"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 20,
-          "color": "#f7d657"
+         "name":"shorts",
+         "x":25,
+         "y":80,
+         "w":50,
+         "h":25,
+         "color":"#1e90ff"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 28,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"skin",
+         "x":35,
+         "y":22,
+         "w":50,
+         "h":35,
+         "color":"#f7d657"
         }
       ]
     },
     {
-      "id": 34,
-      "name": "Lisa Simpson",
-      "show": "The Simpsons",
-      "image": {
-        "url": "images/lisa-simpson.png"
+     "id":34,
+     "name":"Lisa Simpson",
+     "show":"The Simpsons",
+     "image":{
+       "url":"images/lisa-simpson.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "dress",
-          "x": 25,
-          "y": 58,
-          "w": 50,
-          "h": 32,
-          "color": "#ff0000"
+         "name":"dress",
+         "x":25,
+         "y":58,
+         "w":50,
+         "h":32,
+         "color":"#ff0000"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 25,
-          "w": 50,
-          "h": 35,
-          "color": "#f7d657"
+         "name":"skin",
+         "x":35,
+         "y":25,
+         "w":50,
+         "h":35,
+         "color":"#f7d657"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 18,
-          "w": 50,
-          "h": 22,
-          "color": "#f7d657"
-        },
-        {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
-        },
-        {
-          "name": "necklace",
-          "x": 45,
-          "y": 52,
-          "w": 30,
-          "h": 10,
-          "color": "#ffffff"
+         "name":"necklace",
+         "x":45,
+         "y":52,
+         "w":30,
+         "h":10,
+         "color":"#ffffff"
         }
       ]
     },
     {
-      "id": 35,
-      "name": "Maggie Simpson",
-      "show": "The Simpsons",
-      "image": {
-        "url": "images/maggie-simpson.png"
+     "id":35,
+     "name":"Maggie Simpson",
+     "show":"The Simpsons",
+     "image":{
+       "url":"images/maggie-simpson.png"
       },
-      "regions": [
-        {
-          "name": "onesie",
-          "x": 25,
-          "y": 60,
-          "w": 50,
-          "h": 35,
-          "color": "#ff69b4"
-        },
+     "regions":[
         {
-          "name": "skin",
-          "x": 35,
-          "y": 28,
-          "w": 50,
-          "h": 35,
-          "color": "#f7d657"
+         "name":"onesie",
+         "x":25,
+         "y":60,
+         "w":50,
+         "h":35,
+         "color":"#ff69b4"
         },
         {
-          "name": "hair",
-          "x": 38,
-          "y": 22,
-          "w": 44,
-          "h": 18,
-          "color": "#f7d657"
+         "name":"skin",
+         "x":35,
+         "y":28,
+         "w":50,
+         "h":35,
+         "color":"#f7d657"
         },
         {
-          "name": "eyes",
-          "x": 42,
-          "y": 32,
-          "w": 36,
-          "h": 12,
-          "color": "#000000"
+         "name":"hair",
+         "x":38,
+         "y":22,
+         "w":44,
+         "h":18,
+         "color":"#f7d657"
         },
         {
-          "name": "pacifier",
-          "x": 45,
-          "y": 42,
-          "w": 30,
-          "h": 12,
-          "color": "#0000ff"
+         "name":"pacifier",
+         "x":45,
+         "y":42,
+         "w":30,
+         "h":12,
+         "color":"#0000ff"
         }
       ]
     },
     {
-      "id": 36,
-      "name": "Jimmy Neutron",
-      "show": "Jimmy Neutron",
-      "image": {
-        "url": "images/jimmy-neutron.png"
+     "id":36,
+     "name":"Jimmy Neutron",
+     "show":"Jimmy Neutron",
+     "image":{
+       "url":"images/jimmy-neutron.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "shirt",
-          "x": 25,
-          "y": 58,
-          "w": 50,
-          "h": 32,
-          "color": "#ff0000"
+         "name":"shirt",
+         "x":25,
+         "y":58,
+         "w":50,
+         "h":32,
+         "color":"#ff0000"
         },
         {
-          "name": "pants",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 30,
-          "color": "#1e90ff"
+         "name":"pants",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":30,
+         "color":"#1e90ff"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 22,
-          "w": 50,
-          "h": 36,
-          "color": "#fce5cd"
+         "name":"skin",
+         "x":35,
+         "y":22,
+         "w":50,
+         "h":36,
+         "color":"#fce5cd"
         },
         {
-          "name": "hair",
-          "x": 30,
-          "y": 10,
-          "w": 60,
-          "h": 40,
-          "color": "#8b4513"
+         "name":"hair",
+         "x":30,
+         "y":10,
+         "w":60,
+         "h":40,
+         "color":"#8b4513"
         },
         {
-          "name": "goggles",
-          "x": 38,
-          "y": 28,
-          "w": 44,
-          "h": 16,
-          "color": "#ffffff"
+         "name":"goggles",
+         "x":38,
+         "y":28,
+         "w":44,
+         "h":16,
+         "color":"#ffffff"
         }
       ]
     },
     {
-      "id": 37,
-      "name": "Carl Weezer",
-      "show": "Jimmy Neutron",
-      "image": {
-        "url": "images/carl-weezer.png"
+     "id":37,
+     "name":"Carl Weezer",
+     "show":"Jimmy Neutron",
+     "image":{
+       "url":"images/carl-weezer.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "shirt",
-          "x": 25,
-          "y": 58,
-          "w": 50,
-          "h": 32,
-          "color": "#00cc00"
+         "name":"shirt",
+         "x":25,
+         "y":58,
+         "w":50,
+         "h":32,
+         "color":"#00cc00"
         },
         {
-          "name": "pants",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 30,
-          "color": "#8b4513"
+         "name":"pants",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":30,
+         "color":"#8b4513"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 22,
-          "w": 50,
-          "h": 36,
-          "color": "#d2b48c"
+         "name":"skin",
+         "x":35,
+         "y":22,
+         "w":50,
+         "h":36,
+         "color":"#d2b48c"
         },
         {
-          "name": "glasses",
-          "x": 38,
-          "y": 30,
-          "w": 44,
-          "h": 16,
-          "color": "#000000"
+         "name":"glasses",
+         "x":38,
+         "y":30,
+         "w":44,
+         "h":16,
+         "color":"#000000"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 20,
-          "color": "#000000"
+         "name":"hair",
+         "x":35,
+         "y":15,
+         "w":50,
+         "h":20,
+         "color":"#000000"
         }
       ]
     },
     {
-      "id": 38,
-      "name": "Sheen Estevez",
-      "show": "Jimmy Neutron",
-      "image": {
-        "url": "images/sheen-estevez.png"
+     "id":38,
+     "name":"Sheen Estevez",
+     "show":"Jimmy Neutron",
+     "image":{
+       "url":"images/sheen-estevez.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "shirt",
-          "x": 25,
-          "y": 58,
-          "w": 50,
-          "h": 32,
-          "color": "#ffd700"
+         "name":"shirt",
+         "x":25,
+         "y":58,
+         "w":50,
+         "h":32,
+         "color":"#ffd700"
         },
         {
-          "name": "pants",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 30,
-          "color": "#1e90ff"
+         "name":"pants",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":30,
+         "color":"#1e90ff"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 22,
-          "w": 50,
-          "h": 36,
-          "color": "#d2b48c"
+         "name":"skin",
+         "x":35,
+         "y":22,
+         "w":50,
+         "h":36,
+         "color":"#d2b48c"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 20,
-          "color": "#000000"
-        },
-        {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"hair",
+         "x":35,
+         "y":15,
+         "w":50,
+         "h":20,
+         "color":"#000000"
         }
       ]
     },
     {
-      "id": 39,
-      "name": "Cindy Vortex",
-      "show": "Jimmy Neutron",
-      "image": {
-        "url": "images/cindy-vortex.png"
+     "id":39,
+     "name":"Cindy Vortex",
+     "show":"Jimmy Neutron",
+     "image":{
+       "url":"images/cindy-vortex.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "shirt",
-          "x": 25,
-          "y": 58,
-          "w": 50,
-          "h": 32,
-          "color": "#ff69b4"
+         "name":"shirt",
+         "x":25,
+         "y":58,
+         "w":50,
+         "h":32,
+         "color":"#ff69b4"
         },
         {
-          "name": "skirt",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 25,
-          "color": "#9370db"
+         "name":"skirt",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":25,
+         "color":"#9370db"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 22,
-          "w": 50,
-          "h": 36,
-          "color": "#d2b48c"
+         "name":"skin",
+         "x":35,
+         "y":22,
+         "w":50,
+         "h":36,
+         "color":"#d2b48c"
         },
         {
-          "name": "hair",
-          "x": 30,
-          "y": 12,
-          "w": 60,
-          "h": 45,
-          "color": "#000000"
-        },
-        {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"hair",
+         "x":30,
+         "y":12,
+         "w":60,
+         "h":45,
+         "color":"#000000"
         }
       ]
     },
     {
-      "id": 40,
-      "name": "Goddard",
-      "show": "Jimmy Neutron",
-      "image": {
-        "url": "images/goddard.png"
+     "id":40,
+     "name":"Goddard",
+     "show":"Jimmy Neutron",
+     "image":{
+       "url":"images/goddard.png"
       },
-      "regions": [
-        {
-          "name": "body",
-          "x": 20,
-          "y": 40,
-          "w": 80,
-          "h": 50,
-          "color": "#c0c0c0"
-        },
+     "regions":[
         {
-          "name": "head",
-          "x": 35,
-          "y": 30,
-          "w": 50,
-          "h": 40,
-          "color": "#c0c0c0"
+         "name":"body",
+         "x":20,
+         "y":40,
+         "w":80,
+         "h":50,
+         "color":"#c0c0c0"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 38,
-          "w": 40,
-          "h": 15,
-          "color": "#0000ff"
+         "name":"head",
+         "x":35,
+         "y":30,
+         "w":50,
+         "h":40,
+         "color":"#c0c0c0"
         },
         {
-          "name": "antenna",
-          "x": 45,
-          "y": 20,
-          "w": 30,
-          "h": 15,
-          "color": "#ff0000"
+         "name":"antenna",
+         "x":45,
+         "y":20,
+         "w":30,
+         "h":15,
+         "color":"#ff0000"
         },
         {
-          "name": "legs",
-          "x": 30,
-          "y": 75,
-          "w": 60,
-          "h": 25,
-          "color": "#808080"
+         "name":"legs",
+         "x":30,
+         "y":75,
+         "w":60,
+         "h":25,
+         "color":"#808080"
         }
       ]
     },
     {
-      "id": 41,
-      "name": "Blossom",
-      "show": "Powerpuff Girls",
-      "image": {
-        "url": "images/blossom.png"
+     "id":41,
+     "name":"Blossom",
+     "show":"Powerpuff Girls",
+     "image":{
+       "url":"images/blossom.png"
       },
-      "regions": [
-        {
-          "name": "dress",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#ff0000"
-        },
+     "regions":[
         {
-          "name": "skin",
-          "x": 35,
-          "y": 25,
-          "w": 50,
-          "h": 35,
-          "color": "#ffd700"
+         "name":"dress",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#ff0000"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 25,
-          "color": "#ff6347"
+         "name":"skin",
+         "x":35,
+         "y":25,
+         "w":50,
+         "h":35,
+         "color":"#ffd700"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 32,
-          "w": 40,
-          "h": 15,
-          "color": "#0000ff"
+         "name":"hair",
+         "x":35,
+         "y":15,
+         "w":50,
+         "h":25,
+         "color":"#ff6347"
         },
         {
-          "name": "bow",
-          "x": 45,
-          "y": 20,
-          "w": 30,
-          "h": 15,
-          "color": "#ff0000"
+         "name":"bow",
+         "x":45,
+         "y":20,
+         "w":30,
+         "h":15,
+         "color":"#ff0000"
         }
       ]
     },
     {
-      "id": 42,
-      "name": "Bubbles",
-      "show": "Powerpuff Girls",
-      "image": {
-        "url": "images/bubbles.png"
+     "id":42,
+     "name":"Bubbles",
+     "show":"Powerpuff Girls",
+     "image":{
+       "url":"images/bubbles.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "dress",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#00bfff"
+         "name":"dress",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#00bfff"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 25,
-          "w": 50,
-          "h": 35,
-          "color": "#ffd700"
+         "name":"skin",
+         "x":35,
+         "y":25,
+         "w":50,
+         "h":35,
+         "color":"#ffd700"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 25,
-          "color": "#ffd700"
+         "name":"hair",
+         "x":35,
+         "y":15,
+         "w":50,
+         "h":25,
+         "color":"#ffd700"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 32,
-          "w": 40,
-          "h": 15,
-          "color": "#0000ff"
-        },
-        {
-          "name": "bow",
-          "x": 45,
-          "y": 20,
-          "w": 30,
-          "h": 15,
-          "color": "#00bfff"
+         "name":"bow",
+         "x":45,
+         "y":20,
+         "w":30,
+         "h":15,
+         "color":"#00bfff"
         }
       ]
     },
     {
-      "id": 43,
-      "name": "Buttercup",
-      "show": "Powerpuff Girls",
-      "image": {
-        "url": "images/buttercup.png"
+     "id":43,
+     "name":"Buttercup",
+     "show":"Powerpuff Girls",
+     "image":{
+       "url":"images/buttercup.png"
       },
-      "regions": [
-        {
-          "name": "dress",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#00cc00"
-        },
+     "regions":[
         {
-          "name": "skin",
-          "x": 35,
-          "y": 25,
-          "w": 50,
-          "h": 35,
-          "color": "#ffd700"
+         "name":"dress",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#00cc00"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 25,
-          "color": "#000000"
+         "name":"skin",
+         "x":35,
+         "y":25,
+         "w":50,
+         "h":35,
+         "color":"#ffd700"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 32,
-          "w": 40,
-          "h": 15,
-          "color": "#0000ff"
+         "name":"hair",
+         "x":35,
+         "y":15,
+         "w":50,
+         "h":25,
+         "color":"#000000"
         },
         {
-          "name": "frown",
-          "x": 42,
-          "y": 42,
-          "w": 36,
-          "h": 10,
-          "color": "#000000"
+         "name":"frown",
+         "x":42,
+         "y":42,
+         "w":36,
+         "h":10,
+         "color":"#000000"
         }
       ]
     },
     {
-      "id": 44,
-      "name": "Professor Utonium",
-      "show": "Powerpuff Girls",
-      "image": {
-        "url": "images/professor-utonium.png"
+     "id":44,
+     "name":"Professor Utonium",
+     "show":"Powerpuff Girls",
+     "image":{
+       "url":"images/professor-utonium.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "coat",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#ffffff"
+         "name":"coat",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#ffffff"
         },
         {
-          "name": "shirt",
-          "x": 30,
-          "y": 60,
-          "w": 40,
-          "h": 25,
-          "color": "#000080"
+         "name":"shirt",
+         "x":30,
+         "y":60,
+         "w":40,
+         "h":25,
+         "color":"#000080"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#fce5cd"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#fce5cd"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 20,
-          "color": "#000000"
+         "name":"hair",
+         "x":35,
+         "y":15,
+         "w":50,
+         "h":20,
+         "color":"#000000"
         },
         {
-          "name": "glasses",
-          "x": 40,
-          "y": 28,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"glasses",
+         "x":40,
+         "y":28,
+         "w":40,
+         "h":15,
+         "color":"#000000"
         }
       ]
     },
     {
-      "id": 45,
-      "name": "Mayor",
-      "show": "Powerpuff Girls",
-      "image": {
-        "url": "images/mayor.png"
+     "id":45,
+     "name":"Mayor",
+     "show":"Powerpuff Girls",
+     "image":{
+       "url":"images/mayor.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "suit",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#000000"
+         "name":"suit",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#000000"
         },
         {
-          "name": "shirt",
-          "x": 30,
-          "y": 60,
-          "w": 40,
-          "h": 25,
-          "color": "#ffffff"
+         "name":"shirt",
+         "x":30,
+         "y":60,
+         "w":40,
+         "h":25,
+         "color":"#ffffff"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#fce5cd"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#fce5cd"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 20,
-          "color": "#808080"
+         "name":"hair",
+         "x":35,
+         "y":15,
+         "w":50,
+         "h":20,
+         "color":"#808080"
         },
         {
-          "name": "tie",
-          "x": 45,
-          "y": 65,
-          "w": 10,
-          "h": 20,
-          "color": "#ff0000"
+         "name":"tie",
+         "x":45,
+         "y":65,
+         "w":10,
+         "h":20,
+         "color":"#ff0000"
         }
       ]
     },
     {
-      "id": 46,
-      "name": "Courage",
-      "show": "Courage the Cowardly Dog",
-      "image": {
-        "url": "images/courage.png"
+     "id":46,
+     "name":"Courage",
+     "show":"Courage the Cowardly Dog",
+     "image":{
+       "url":"images/courage.png"
       },
-      "regions": [
-        {
-          "name": "body",
-          "x": 20,
-          "y": 40,
-          "w": 80,
-          "h": 50,
-          "color": "#ff69b4"
-        },
-        {
-          "name": "head",
-          "x": 35,
-          "y": 30,
-          "w": 50,
-          "h": 40,
-          "color": "#ff69b4"
-        },
+     "regions":[
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 38,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"body",
+         "x":20,
+         "y":40,
+         "w":80,
+         "h":50,
+         "color":"#ff69b4"
         },
         {
-          "name": "nose",
-          "x": 45,
-          "y": 50,
-          "w": 30,
-          "h": 15,
-          "color": "#000000"
+         "name":"head",
+         "x":35,
+         "y":30,
+         "w":50,
+         "h":40,
+         "color":"#ff69b4"
         },
         {
-          "name": "ears",
-          "x": 30,
-          "y": 25,
-          "w": 60,
-          "h": 25,
-          "color": "#ff1493"
+         "name":"nose",
+         "x":45,
+         "y":50,
+         "w":30,
+         "h":15,
+         "color":"#000000"
         }
       ]
     },
     {
-      "id": 47,
-      "name": "Muriel Bagge",
-      "show": "Courage the Cowardly Dog",
-      "image": {
-        "url": "images/muriel-bagge.png"
+     "id":47,
+     "name":"Muriel Bagge",
+     "show":"Courage the Cowardly Dog",
+     "image":{
+       "url":"images/muriel-bagge.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "dress",
-          "x": 25,
-          "y": 58,
-          "w": 50,
-          "h": 32,
-          "color": "#9370db"
+         "name":"dress",
+         "x":25,
+         "y":58,
+         "w":50,
+         "h":32,
+         "color":"#9370db"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 22,
-          "w": 50,
-          "h": 36,
-          "color": "#fce5cd"
+         "name":"skin",
+         "x":35,
+         "y":22,
+         "w":50,
+         "h":36,
+         "color":"#fce5cd"
         },
         {
-          "name": "hair",
-          "x": 30,
-          "y": 12,
-          "w": 60,
-          "h": 45,
-          "color": "#c0c0c0"
+         "name":"hair",
+         "x":30,
+         "y":12,
+         "w":60,
+         "h":45,
+         "color":"#c0c0c0"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
-        },
-        {
-          "name": "cheeks",
-          "x": 38,
-          "y": 38,
-          "w": 44,
-          "h": 12,
-          "color": "#ff69b4"
+         "name":"cheeks",
+         "x":38,
+         "y":38,
+         "w":44,
+         "h":12,
+         "color":"#ff69b4"
         }
       ]
     },
     {
-      "id": 48,
-      "name": "Eustace Bagge",
-      "show": "Courage the Cowardly Dog",
-      "image": {
-        "url": "images/eustace-bagge.png"
+     "id":48,
+     "name":"Eustace Bagge",
+     "show":"Courage the Cowardly Dog",
+     "image":{
+       "url":"images/eustace-bagge.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "shirt",
-          "x": 25,
-          "y": 58,
-          "w": 50,
-          "h": 32,
-          "color": "#8b4513"
+         "name":"shirt",
+         "x":25,
+         "y":58,
+         "w":50,
+         "h":32,
+         "color":"#8b4513"
         },
         {
-          "name": "pants",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 30,
-          "color": "#000080"
+         "name":"pants",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":30,
+         "color":"#000080"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 22,
-          "w": 50,
-          "h": 36,
-          "color": "#fce5cd"
+         "name":"skin",
+         "x":35,
+         "y":22,
+         "w":50,
+         "h":36,
+         "color":"#fce5cd"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 20,
-          "color": "#808080"
+         "name":"hair",
+         "x":35,
+         "y":15,
+         "w":50,
+         "h":20,
+         "color":"#808080"
         },
         {
-          "name": "glasses",
-          "x": 40,
-          "y": 28,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"glasses",
+         "x":40,
+         "y":28,
+         "w":40,
+         "h":15,
+         "color":"#000000"
         }
       ]
     },
     {
-      "id": 49,
-      "name": "Computer",
-      "show": "Courage the Cowardly Dog",
-      "image": {
-        "url": "images/computer.png"
+     "id":49,
+     "name":"Computer",
+     "show":"Courage the Cowardly Dog",
+     "image":{
+       "url":"images/computer.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "screen",
-          "x": 25,
-          "y": 30,
-          "w": 70,
-          "h": 50,
-          "color": "#00ff00"
+         "name":"screen",
+         "x":25,
+         "y":30,
+         "w":70,
+         "h":50,
+         "color":"#00ff00"
         },
         {
-          "name": "case",
-          "x": 20,
-          "y": 25,
-          "w": 80,
-          "h": 60,
-          "color": "#000000"
+         "name":"case",
+         "x":20,
+         "y":25,
+         "w":80,
+         "h":60,
+         "color":"#000000"
         },
         {
-          "name": "base",
-          "x": 35,
-          "y": 75,
-          "w": 50,
-          "h": 20,
-          "color": "#808080"
+         "name":"base",
+         "x":35,
+         "y":75,
+         "w":50,
+         "h":20,
+         "color":"#808080"
         },
         {
-          "name": "text",
-          "x": 30,
-          "y": 40,
-          "w": 60,
-          "h": 30,
-          "color": "#000000"
+         "name":"text",
+         "x":30,
+         "y":40,
+         "w":60,
+         "h":30,
+         "color":"#000000"
         },
         {
-          "name": "buttons",
-          "x": 40,
-          "y": 80,
-          "w": 40,
-          "h": 10,
-          "color": "#ff0000"
+         "name":"buttons",
+         "x":40,
+         "y":80,
+         "w":40,
+         "h":10,
+         "color":"#ff0000"
         }
       ]
     },
     {
-      "id": 50,
-      "name": "Katz",
-      "show": "Courage the Cowardly Dog",
-      "image": {
-        "url": "images/katz.png"
+     "id":50,
+     "name":"Katz",
+     "show":"Courage the Cowardly Dog",
+     "image":{
+       "url":"images/katz.png"
       },
-      "regions": [
-        {
-          "name": "suit",
-          "x": 25,
-          "y": 58,
-          "w": 50,
-          "h": 32,
-          "color": "#00cc00"
-        },
-        {
-          "name": "body",
-          "x": 30,
-          "y": 25,
-          "w": 60,
-          "h": 45,
-          "color": "#00cc00"
-        },
+     "regions":[
         {
-          "name": "ears",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 20,
-          "color": "#00cc00"
+         "name":"suit",
+         "x":25,
+         "y":58,
+         "w":50,
+         "h":32,
+         "color":"#00cc00"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 32,
-          "w": 40,
-          "h": 15,
-          "color": "#ffff00"
+         "name":"body",
+         "x":30,
+         "y":25,
+         "w":60,
+         "h":45,
+         "color":"#00cc00"
         },
         {
-          "name": "tie",
-          "x": 45,
-          "y": 62,
-          "w": 10,
-          "h": 20,
-          "color": "#ff0000"
+         "name":"tie",
+         "x":45,
+         "y":62,
+         "w":10,
+         "h":20,
+         "color":"#ff0000"
         }
       ]
     },
     {
-      "id": 51,
-      "name": "Numbuh 1",
-      "show": "Codename: Kids Next Door",
-      "image": {
-        "url": "images/numbuh-1.png"
+     "id":51,
+     "name":"Numbuh 1",
+     "show":"Codename:Kids Next Door",
+     "image":{
+       "url":"images/numbuh-1.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "suit",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#000000"
+         "name":"suit",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#000000"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#fce5cd"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#fce5cd"
         },
         {
-          "name": "sunglasses",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"sunglasses",
+         "x":40,
+         "y":30,
+         "w":40,
+         "h":15,
+         "color":"#000000"
         },
         {
-          "name": "head",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 20,
-          "color": "#fce5cd"
-        },
-        {
-          "name": "tie",
-          "x": 45,
-          "y": 60,
-          "w": 10,
-          "h": 20,
-          "color": "#ff0000"
+         "name":"head",
+         "x":35,
+         "y":15,
+         "w":50,
+         "h":20,
+         "color":"#fce5cd"
         }
       ]
     },
     {
-      "id": 52,
-      "name": "Numbuh 2",
-      "show": "Codename: Kids Next Door",
-      "image": {
-        "url": "images/numbuh-2.png"
+     "id":52,
+     "name":"Numbuh 2",
+     "show":"Codename:Kids Next Door",
+     "image":{
+       "url":"images/numbuh-2.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "shirt",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#00cc00"
+         "name":"shirt",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#00cc00"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#fce5cd"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#fce5cd"
         },
         {
-          "name": "hat",
-          "x": 35,
-          "y": 10,
-          "w": 50,
-          "h": 30,
-          "color": "#ff0000"
+         "name":"hat",
+         "x":35,
+         "y":10,
+         "w":50,
+         "h":30,
+         "color":"#ff0000"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
-        },
-        {
-          "name": "pants",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 30,
-          "color": "#1e90ff"
+         "name":"pants",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":30,
+         "color":"#1e90ff"
         }
       ]
     },
     {
-      "id": 53,
-      "name": "Numbuh 3",
-      "show": "Codename: Kids Next Door",
-      "image": {
-        "url": "images/numbuh-3.png"
+     "id":53,
+     "name":"Numbuh 3",
+     "show":"Codename:Kids Next Door",
+     "image":{
+       "url":"images/numbuh-3.png"
       },
-      "regions": [
-        {
-          "name": "dress",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#ffff00"
-        },
+     "regions":[
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#fce5cd"
+         "name":"dress",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#ffff00"
         },
         {
-          "name": "hair",
-          "x": 30,
-          "y": 15,
-          "w": 60,
-          "h": 40,
-          "color": "#000000"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#fce5cd"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"hair",
+         "x":30,
+         "y":15,
+         "w":60,
+         "h":40,
+         "color":"#000000"
         },
         {
-          "name": "bow",
-          "x": 45,
-          "y": 20,
-          "w": 30,
-          "h": 15,
-          "color": "#ff69b4"
+         "name":"bow",
+         "x":45,
+         "y":20,
+         "w":30,
+         "h":15,
+         "color":"#ff69b4"
         }
       ]
     },
     {
-      "id": 54,
-      "name": "Numbuh 4",
-      "show": "Codename: Kids Next Door",
-      "image": {
-        "url": "images/numbuh-4.png"
+     "id":54,
+     "name":"Numbuh 4",
+     "show":"Codename:Kids Next Door",
+     "image":{
+       "url":"images/numbuh-4.png"
       },
-      "regions": [
-        {
-          "name": "shirt",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#ff0000"
-        },
+     "regions":[
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#fce5cd"
+         "name":"shirt",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#ff0000"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 20,
-          "color": "#ffd700"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#fce5cd"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"hair",
+         "x":35,
+         "y":15,
+         "w":50,
+         "h":20,
+         "color":"#ffd700"
         },
         {
-          "name": "shorts",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 30,
-          "color": "#1e90ff"
+         "name":"shorts",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":30,
+         "color":"#1e90ff"
         }
       ]
     },
     {
-      "id": 55,
-      "name": "Numbuh 5",
-      "show": "Codename: Kids Next Door",
-      "image": {
-        "url": "images/numbuh-5.png"
+     "id":55,
+     "name":"Numbuh 5",
+     "show":"Codename:Kids Next Door",
+     "image":{
+       "url":"images/numbuh-5.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "shirt",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#0000ff"
+         "name":"shirt",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#0000ff"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#d2b48c"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#d2b48c"
         },
         {
-          "name": "hat",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 25,
-          "color": "#ff0000"
+         "name":"hat",
+         "x":35,
+         "y":15,
+         "w":50,
+         "h":25,
+         "color":"#ff0000"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
-        },
-        {
-          "name": "pants",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 30,
-          "color": "#1e90ff"
+         "name":"pants",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":30,
+         "color":"#1e90ff"
         }
       ]
     },
     {
-      "id": 56,
-      "name": "Aang",
-      "show": "Avatar: The Last Airbender",
-      "image": {
-        "url": "images/aang.png"
+     "id":56,
+     "name":"Aang",
+     "show":"Avatar:The Last Airbender",
+     "image":{
+       "url":"images/aang.png"
       },
-      "regions": [
-        {
-          "name": "robes",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#ff8c00"
-        },
+     "regions":[
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#fce5cd"
+         "name":"robes",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#ff8c00"
         },
         {
-          "name": "arrow",
-          "x": 45,
-          "y": 15,
-          "w": 30,
-          "h": 20,
-          "color": "#0000ff"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#fce5cd"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"arrow",
+         "x":45,
+         "y":15,
+         "w":30,
+         "h":20,
+         "color":"#0000ff"
         },
         {
-          "name": "head",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 20,
-          "color": "#fce5cd"
+         "name":"head",
+         "x":35,
+         "y":15,
+         "w":50,
+         "h":20,
+         "color":"#fce5cd"
         }
       ]
     },
     {
-      "id": 57,
-      "name": "Katara",
-      "show": "Avatar: The Last Airbender",
-      "image": {
-        "url": "images/katara.png"
+     "id":57,
+     "name":"Katara",
+     "show":"Avatar:The Last Airbender",
+     "image":{
+       "url":"images/katara.png"
       },
-      "regions": [
-        {
-          "name": "dress",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#0000ff"
-        },
+     "regions":[
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#d2b48c"
+         "name":"dress",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#0000ff"
         },
         {
-          "name": "hair",
-          "x": 30,
-          "y": 15,
-          "w": 60,
-          "h": 40,
-          "color": "#000000"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#d2b48c"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"hair",
+         "x":30,
+         "y":15,
+         "w":60,
+         "h":40,
+         "color":"#000000"
         },
         {
-          "name": "necklace",
-          "x": 45,
-          "y": 50,
-          "w": 30,
-          "h": 10,
-          "color": "#ffffff"
+         "name":"necklace",
+         "x":45,
+         "y":50,
+         "w":30,
+         "h":10,
+         "color":"#ffffff"
         }
       ]
     },
     {
-      "id": 58,
-      "name": "Sokka",
-      "show": "Avatar: The Last Airbender",
-      "image": {
-        "url": "images/sokka.png"
+     "id":58,
+     "name":"Sokka",
+     "show":"Avatar:The Last Airbender",
+     "image":{
+       "url":"images/sokka.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "tunic",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#0000ff"
+         "name":"tunic",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#0000ff"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#d2b48c"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#d2b48c"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 25,
-          "color": "#000000"
+         "name":"hair",
+         "x":35,
+         "y":15,
+         "w":50,
+         "h":25,
+         "color":"#000000"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
-        },
-        {
-          "name": "pants",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 30,
-          "color": "#1e90ff"
+         "name":"pants",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":30,
+         "color":"#1e90ff"
         }
       ]
     },
     {
-      "id": 59,
-      "name": "Toph",
-      "show": "Avatar: The Last Airbender",
-      "image": {
-        "url": "images/toph.png"
+     "id":59,
+     "name":"Toph",
+     "show":"Avatar:The Last Airbender",
+     "image":{
+       "url":"images/toph.png"
       },
-      "regions": [
-        {
-          "name": "dress",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#00cc00"
-        },
-        {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#d2b48c"
-        },
+     "regions":[
         {
-          "name": "hair",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 20,
-          "color": "#000000"
+         "name":"dress",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#00cc00"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#d2b48c"
         },
         {
-          "name": "feet",
-          "x": 30,
-          "y": 85,
-          "w": 60,
-          "h": 20,
-          "color": "#d2b48c"
+         "name":"hair",
+         "x":35,
+         "y":15,
+         "w":50,
+         "h":20,
+         "color":"#000000"
         }
       ]
     },
     {
-      "id": 60,
-      "name": "Zuko",
-      "show": "Avatar: The Last Airbender",
-      "image": {
-        "url": "images/zuko.png"
+     "id":60,
+     "name":"Zuko",
+     "show":"Avatar:The Last Airbender",
+     "image":{
+       "url":"images/zuko.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "tunic",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#8b0000"
+         "name":"tunic",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#8b0000"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#d2b48c"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#d2b48c"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 20,
-          "color": "#000000"
+         "name":"hair",
+         "x":35,
+         "y":15,
+         "w":50,
+         "h":20,
+         "color":"#000000"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
-        },
-        {
-          "name": "scar",
-          "x": 50,
-          "y": 28,
-          "w": 20,
-          "h": 20,
-          "color": "#8b0000"
+         "name":"scar",
+         "x":50,
+         "y":28,
+         "w":20,
+         "h":20,
+         "color":"#8b0000"
         }
       ]
     },
     {
-      "id": 61,
-      "name": "Scooby-Doo",
-      "show": "Scooby-Doo",
-      "image": {
-        "url": "images/scooby-doo.png"
+     "id":61,
+     "name":"Scooby-Doo",
+     "show":"Scooby-Doo",
+     "image":{
+       "url":"images/scooby-doo.png"
       },
-      "regions": [
-        {
-          "name": "body",
-          "x": 20,
-          "y": 45,
-          "w": 80,
-          "h": 50,
-          "color": "#8b4513"
-        },
-        {
-          "name": "head",
-          "x": 35,
-          "y": 25,
-          "w": 50,
-          "h": 40,
-          "color": "#8b4513"
-        },
+     "regions":[
         {
-          "name": "spots",
-          "x": 30,
-          "y": 40,
-          "w": 60,
-          "h": 40,
-          "color": "#000000"
+         "name":"body",
+         "x":20,
+         "y":45,
+         "w":80,
+         "h":50,
+         "color":"#8b4513"
         },
         {
-          "name": "collar",
-          "x": 40,
-          "y": 55,
-          "w": 40,
-          "h": 15,
-          "color": "#0000ff"
+         "name":"spots",
+         "x":30,
+         "y":40,
+         "w":60,
+         "h":40,
+         "color":"#000000"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 32,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"collar",
+         "x":40,
+         "y":55,
+         "w":40,
+         "h":15,
+         "color":"#0000ff"
         }
       ]
     },
     {
-      "id": 62,
-      "name": "Shaggy",
-      "show": "Scooby-Doo",
-      "image": {
-        "url": "images/shaggy.png"
+     "id":62,
+     "name":"Shaggy",
+     "show":"Scooby-Doo",
+     "image":{
+       "url":"images/shaggy.png"
       },
-      "regions": [
-        {
-          "name": "shirt",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#00cc00"
-        },
+     "regions":[
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#fce5cd"
+         "name":"shirt",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#00cc00"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 25,
-          "color": "#d2b48c"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#fce5cd"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"hair",
+         "x":35,
+         "y":15,
+         "w":50,
+         "h":25,
+         "color":"#d2b48c"
         },
         {
-          "name": "pants",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 30,
-          "color": "#8b4513"
+         "name":"pants",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":30,
+         "color":"#8b4513"
         }
       ]
     },
     {
-      "id": 63,
-      "name": "Fred",
-      "show": "Scooby-Doo",
-      "image": {
-        "url": "images/fred.png"
+     "id":63,
+     "name":"Fred",
+     "show":"Scooby-Doo",
+     "image":{
+       "url":"images/fred.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "shirt",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#ffffff"
+         "name":"shirt",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#ffffff"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#fce5cd"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#fce5cd"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 20,
-          "color": "#ffd700"
+         "name":"hair",
+         "x":35,
+         "y":15,
+         "w":50,
+         "h":20,
+         "color":"#ffd700"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
-        },
-        {
-          "name": "ascot",
-          "x": 42,
-          "y": 58,
-          "w": 36,
-          "h": 15,
-          "color": "#ff8c00"
+         "name":"ascot",
+         "x":42,
+         "y":58,
+         "w":36,
+         "h":15,
+         "color":"#ff8c00"
         }
       ]
     },
     {
-      "id": 64,
-      "name": "Daphne",
-      "show": "Scooby-Doo",
-      "image": {
-        "url": "images/daphne.png"
+     "id":64,
+     "name":"Daphne",
+     "show":"Scooby-Doo",
+     "image":{
+       "url":"images/daphne.png"
       },
-      "regions": [
-        {
-          "name": "dress",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#800080"
-        },
+     "regions":[
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#fce5cd"
+         "name":"dress",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#800080"
         },
         {
-          "name": "hair",
-          "x": 30,
-          "y": 15,
-          "w": 60,
-          "h": 35,
-          "color": "#ff4500"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#fce5cd"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"hair",
+         "x":30,
+         "y":15,
+         "w":60,
+         "h":35,
+         "color":"#ff4500"
         },
         {
-          "name": "scarf",
-          "x": 40,
-          "y": 55,
-          "w": 40,
-          "h": 15,
-          "color": "#00cc00"
+         "name":"scarf",
+         "x":40,
+         "y":55,
+         "w":40,
+         "h":15,
+         "color":"#00cc00"
         }
       ]
     },
     {
-      "id": 65,
-      "name": "Velma",
-      "show": "Scooby-Doo",
-      "image": {
-        "url": "images/velma.png"
+     "id":65,
+     "name":"Velma",
+     "show":"Scooby-Doo",
+     "image":{
+       "url":"images/velma.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "sweater",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#ff8c00"
+         "name":"sweater",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#ff8c00"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#fce5cd"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#fce5cd"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 20,
-          "color": "#8b4513"
+         "name":"hair",
+         "x":35,
+         "y":15,
+         "w":50,
+         "h":20,
+         "color":"#8b4513"
         },
         {
-          "name": "glasses",
-          "x": 40,
-          "y": 28,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"glasses",
+         "x":40,
+         "y":28,
+         "w":40,
+         "h":15,
+         "color":"#000000"
         },
         {
-          "name": "skirt",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 30,
-          "color": "#ff0000"
+         "name":"skirt",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":30,
+         "color":"#ff0000"
         }
       ]
     },
     {
-      "id": 66,
-      "name": "Phineas",
-      "show": "Phineas and Ferb",
-      "image": {
-        "url": "images/phineas.png"
+     "id":66,
+     "name":"Phineas",
+     "show":"Phineas and Ferb",
+     "image":{
+       "url":"images/phineas.png"
       },
-      "regions": [
-        {
-          "name": "shirt",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#ff8c00"
-        },
+     "regions":[
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#fce5cd"
+         "name":"shirt",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#ff8c00"
         },
         {
-          "name": "head",
-          "x": 30,
-          "y": 10,
-          "w": 60,
-          "h": 45,
-          "color": "#fce5cd"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#fce5cd"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
-        },
-        {
-          "name": "shorts",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 30,
-          "color": "#0000ff"
+         "name":"shorts",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":30,
+         "color":"#0000ff"
         }
       ]
     },
     {
-      "id": 67,
-      "name": "Ferb",
-      "show": "Phineas and Ferb",
-      "image": {
-        "url": "images/ferb.png"
+     "id":67,
+     "name":"Ferb",
+     "show":"Phineas and Ferb",
+     "image":{
+       "url":"images/ferb.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "shirt",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#800080"
+         "name":"shirt",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#800080"
         },
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#fce5cd"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#fce5cd"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 10,
-          "w": 50,
-          "h": 25,
-          "color": "#00cc00"
+         "name":"hair",
+         "x":35,
+         "y":10,
+         "w":50,
+         "h":25,
+         "color":"#00cc00"
         },
         {
-          "name": "eyes",
-          "x": 42,
-          "y": 32,
-          "w": 36,
-          "h": 12,
-          "color": "#000000"
-        },
-        {
-          "name": "pants",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 30,
-          "color": "#800080"
+         "name":"pants",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":30,
+         "color":"#800080"
         }
       ]
     },
     {
-      "id": 68,
-      "name": "Candace",
-      "show": "Phineas and Ferb",
-      "image": {
-        "url": "images/candace.png"
+     "id":68,
+     "name":"Candace",
+     "show":"Phineas and Ferb",
+     "image":{
+       "url":"images/candace.png"
       },
-      "regions": [
-        {
-          "name": "shirt",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#ff8c00"
-        },
+     "regions":[
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#fce5cd"
+         "name":"shirt",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#ff8c00"
         },
         {
-          "name": "hair",
-          "x": 30,
-          "y": 15,
-          "w": 60,
-          "h": 40,
-          "color": "#ff8c00"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#fce5cd"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"hair",
+         "x":30,
+         "y":15,
+         "w":60,
+         "h":40,
+         "color":"#ff8c00"
         },
         {
-          "name": "skirt",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 30,
-          "color": "#0000ff"
+         "name":"skirt",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":30,
+         "color":"#0000ff"
         }
       ]
     },
     {
-      "id": 69,
-      "name": "Perry",
-      "show": "Phineas and Ferb",
-      "image": {
-        "url": "images/perry.png"
+     "id":69,
+     "name":"Perry",
+     "show":"Phineas and Ferb",
+     "image":{
+       "url":"images/perry.png"
       },
-      "regions": [
-        {
-          "name": "body",
-          "x": 30,
-          "y": 45,
-          "w": 60,
-          "h": 45,
-          "color": "#008080"
-        },
+     "regions":[
         {
-          "name": "head",
-          "x": 35,
-          "y": 25,
-          "w": 50,
-          "h": 35,
-          "color": "#008080"
+         "name":"body",
+         "x":30,
+         "y":45,
+         "w":60,
+         "h":45,
+         "color":"#008080"
         },
         {
-          "name": "hat",
-          "x": 38,
-          "y": 20,
-          "w": 44,
-          "h": 20,
-          "color": "#8b4513"
+         "name":"hat",
+         "x":38,
+         "y":20,
+         "w":44,
+         "h":20,
+         "color":"#8b4513"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 32,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
-        },
-        {
-          "name": "bill",
-          "x": 42,
-          "y": 42,
-          "w": 36,
-          "h": 15,
-          "color": "#ffa500"
+         "name":"bill",
+         "x":42,
+         "y":42,
+         "w":36,
+         "h":15,
+         "color":"#ffa500"
         }
       ]
     },
     {
-      "id": 70,
-      "name": "Isabella",
-      "show": "Phineas and Ferb",
-      "image": {
-        "url": "images/isabella.png"
+     "id":70,
+     "name":"Isabella",
+     "show":"Phineas and Ferb",
+     "image":{
+       "url":"images/isabella.png"
       },
-      "regions": [
-        {
-          "name": "shirt",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#ffffff"
-        },
+     "regions":[
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#fce5cd"
+         "name":"shirt",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#ffffff"
         },
         {
-          "name": "hair",
-          "x": 30,
-          "y": 15,
-          "w": 60,
-          "h": 40,
-          "color": "#000000"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#fce5cd"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"hair",
+         "x":30,
+         "y":15,
+         "w":60,
+         "h":40,
+         "color":"#000000"
         },
         {
-          "name": "bow",
-          "x": 50,
-          "y": 18,
-          "w": 20,
-          "h": 15,
-          "color": "#ff69b4"
+         "name":"bow",
+         "x":50,
+         "y":18,
+         "w":20,
+         "h":15,
+         "color":"#ff69b4"
         }
       ]
     },
     {
-      "id": 71,
-      "name": "Bloo",
-      "show": "Foster's Home for Imaginary Friends",
-      "image": {
-        "url": "images/bloo.png"
+     "id":71,
+     "name":"Bloo",
+     "show":"Foster's Home for Imaginary Friends",
+     "image":{
+       "url":"images/bloo.png"
       },
-      "regions": [
-        {
-          "name": "body",
-          "x": 25,
-          "y": 30,
-          "w": 70,
-          "h": 60,
-          "color": "#0000ff"
-        },
-        {
-          "name": "eyes",
-          "x": 40,
-          "y": 35,
-          "w": 40,
-          "h": 20,
-          "color": "#ffffff"
-        },
+     "regions":[
         {
-          "name": "pupils",
-          "x": 42,
-          "y": 38,
-          "w": 36,
-          "h": 14,
-          "color": "#000000"
-        },
-        {
-          "name": "mouth",
-          "x": 40,
-          "y": 55,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
-        },
-        {
-          "name": "arms",
-          "x": 20,
-          "y": 50,
-          "w": 80,
-          "h": 20,
-          "color": "#0000ff"
+         "name":"body",
+         "x":25,
+         "y":30,
+         "w":70,
+         "h":60,
+         "color":"#0000ff"
         }
       ]
     },
     {
-      "id": 72,
-      "name": "Mac",
-      "show": "Foster's Home for Imaginary Friends",
-      "image": {
-        "url": "images/mac.png"
+     "id":72,
+     "name":"Mac",
+     "show":"Foster's Home for Imaginary Friends",
+     "image":{
+       "url":"images/mac.png"
       },
-      "regions": [
-        {
-          "name": "shirt",
-          "x": 25,
-          "y": 55,
-          "w": 50,
-          "h": 35,
-          "color": "#ffff00"
-        },
+     "regions":[
         {
-          "name": "skin",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 35,
-          "color": "#fce5cd"
+         "name":"shirt",
+         "x":25,
+         "y":55,
+         "w":50,
+         "h":35,
+         "color":"#ffff00"
         },
         {
-          "name": "hair",
-          "x": 35,
-          "y": 15,
-          "w": 50,
-          "h": 20,
-          "color": "#8b4513"
+         "name":"skin",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":35,
+         "color":"#fce5cd"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"hair",
+         "x":35,
+         "y":15,
+         "w":50,
+         "h":20,
+         "color":"#8b4513"
         },
         {
-          "name": "shorts",
-          "x": 25,
-          "y": 85,
-          "w": 50,
-          "h": 30,
-          "color": "#0000ff"
+         "name":"shorts",
+         "x":25,
+         "y":85,
+         "w":50,
+         "h":30,
+         "color":"#0000ff"
         }
       ]
     },
     {
-      "id": 73,
-      "name": "Wilt",
-      "show": "Foster's Home for Imaginary Friends",
-      "image": {
-        "url": "images/wilt.png"
+     "id":73,
+     "name":"Wilt",
+     "show":"Foster's Home for Imaginary Friends",
+     "image":{
+       "url":"images/wilt.png"
       },
-      "regions": [
+     "regions":[
         {
-          "name": "body",
-          "x": 25,
-          "y": 25,
-          "w": 70,
-          "h": 60,
-          "color": "#ffffff"
+         "name":"body",
+         "x":25,
+         "y":25,
+         "w":70,
+         "h":60,
+         "color":"#ffffff"
         },
         {
-          "name": "stripes",
-          "x": 30,
-          "y": 30,
-          "w": 60,
-          "h": 50,
-          "color": "#ff0000"
+         "name":"stripes",
+         "x":30,
+         "y":30,
+         "w":60,
+         "h":50,
+         "color":"#ff0000"
         },
         {
-          "name": "eye",
-          "x": 42,
-          "y": 32,
-          "w": 36,
-          "h": 36,
-          "color": "#000000"
-        },
-        {
-          "name": "pupil",
-          "x": 47,
-          "y": 37,
-          "w": 26,
-          "h": 26,
-          "color": "#ffffff"
-        },
-        {
-          "name": "horn",
-          "x": 40,
-          "y": 10,
-          "w": 40,
-          "h": 20,
-          "color": "#ff0000"
+         "name":"horn",
+         "x":40,
+         "y":10,
+         "w":40,
+         "h":20,
+         "color":"#ff0000"
         }
       ]
     },
     {
-      "id": 74,
-      "name": "Eduardo",
-      "show": "Foster's Home for Imaginary Friends",
-      "image": {
-        "url": "images/eduardo.png"
+     "id":74,
+     "name":"Eduardo",
+     "show":"Foster's Home for Imaginary Friends",
+     "image":{
+       "url":"images/eduardo.png"
       },
-      "regions": [
-        {
-          "name": "body",
-          "x": 20,
-          "y": 30,
-          "w": 80,
-          "h": 60,
-          "color": "#800080"
-        },
+     "regions":[
         {
-          "name": "horns",
-          "x": 35,
-          "y": 10,
-          "w": 50,
-          "h": 25,
-          "color": "#ffffff"
+         "name":"body",
+         "x":20,
+         "y":30,
+         "w":80,
+         "h":60,
+         "color":"#800080"
         },
         {
-          "name": "eyes",
-          "x": 40,
-          "y": 30,
-          "w": 40,
-          "h": 20,
-          "color": "#ffffff"
+         "name":"horns",
+         "x":35,
+         "y":10,
+         "w":50,
+         "h":25,
+         "color":"#ffffff"
         },
         {
-          "name": "pupils",
-          "x": 42,
-          "y": 32,
-          "w": 36,
-          "h": 16,
-          "color": "#000000"
-        },
-        {
-          "name": "mouth",
-          "x": 40,
-          "y": 50,
-          "w": 40,
-          "h": 15,
-          "color": "#000000"
+         "name":"mouth",
+         "x":40,
+         "y":50,
+         "w":40,
+         "h":15,
+         "color":"#000000"
         }
       ]
     },
     {
-      "id": 75,
-      "name": "Coco",
-      "show": "Foster's Home for Imaginary Friends",
-      "image": {
-        "url": "images/coco.png"
+     "id":75,
+     "name":"Coco",
+     "show":"Foster's Home for Imaginary Friends",
+     "image":{
+       "url":"images/coco.png"
       },
-      "regions": [
-        {
-          "name": "body",
-          "x": 30,
-          "y": 30,
-          "w": 60,
-          "h": 60,
-          "color": "#0000ff"
-        },
-        {
-          "name": "head",
-          "x": 35,
-          "y": 20,
-          "w": 50,
-          "h": 40,
-          "color": "#0000ff"
-        },
+     "regions":[
         {
-          "name": "leaves",
-          "x": 35,
-          "y": 10,
-          "w": 50,
-          "h": 25,
-          "color": "#00cc00"
+         "name":"body",
+         "x":30,
+         "y":30,
+         "w":60,
+         "h":60,
+         "color":"#0000ff"
         },
         {
-          "name": "eyes",
-          "x": 42,
-          "y": 28,
-          "w": 36,
-          "h": 16,
-          "color": "#ffffff"
+         "name":"head",
+         "x":35,
+         "y":20,
+         "w":50,
+         "h":40,
+         "color":"#0000ff"
         },
         {
-          "name": "spots",
-          "x": 38,
-          "y": 50,
-          "w": 44,
-          "h": 30,
-          "color": "#ffffff"
+         "name":"leaves",
+         "x":35,
+         "y":10,
+         "w":50,
+         "h":25,
+         "color":"#00cc00"
         }
+        
       ]
     }
   ]
