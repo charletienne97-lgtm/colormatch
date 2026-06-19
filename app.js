@@ -133,9 +133,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     regionNameSpan.textContent = `${ch.name} — ${currentRegion.name}`;
     
-    img.style.opacity = '0';
+    img.style.transition = 'none';
     
     img.classList.add('greyed-out');
+    img.style.opacity = '0';
+    
+    void img.offsetWidth;
+    
+    img.style.transition = 'opacity 0.3s ease';
     
     submitBtn.style.display = 'inline-block';
     nextBtn.style.display = 'none';
@@ -144,14 +149,16 @@ document.addEventListener('DOMContentLoaded', async () => {
     hue.value = 180; sat.value = 50; con.value = 0;
     updateSwatch();
 
+    img.onload = () => { img.style.opacity = '1'; };
     img.src = ch.image.url;
     img.alt = ch.name;
 
-    img.onload = () => { img.style.opacity = '1'; };
-    if (img.complete) { img.style.opacity = '1'; }
+    if (img.complete && img.src === ch.image.url) { 
+      img.style.opacity = '1'; 
+    }
 
-    charCaption.textContent = ch.show;
-  
+    charCaption.textContent = ch.show;  
+    
     scoreDiv.textContent = `Score: — / 10  (${i + 1}/${gameChars.length})`;
   }
 
@@ -166,6 +173,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     scoreDiv.textContent = `Score: ${res.score} / 10 (${idx + 1}/${gameChars.length})`;
     
+    img.style.transition = 'filter 0.5s ease, opacity 0.3s ease';
     img.classList.remove('greyed-out');
     
     submitBtn.style.display = 'none';
