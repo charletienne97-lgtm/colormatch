@@ -107,8 +107,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     gameChars = pickRandom(pool, rounds);
     idx = 0;
     totalScore = 0;
-    startScreen.style.display = 'none'; // Hide menu
-    gameDiv.style.display = 'block';    // Show game
+    startScreen.style.display = 'none';
+    gameDiv.style.display = 'block';
     showCharacter(0);
   }
 
@@ -133,6 +133,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     regionNameSpan.textContent = `${ch.name} — ${currentRegion.name}`;
     
+    img.style.opacity = '0';
+    
     img.classList.add('greyed-out');
     
     submitBtn.style.display = 'inline-block';
@@ -145,7 +147,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     img.src = ch.image.url;
     img.alt = ch.name;
 
+    img.onload = () => { img.style.opacity = '1'; };
+    if (img.complete) { img.style.opacity = '1'; }
+
     charCaption.textContent = ch.show;
+  
     scoreDiv.textContent = `Score: — / 10  (${i + 1}/${gameChars.length})`;
   }
 
